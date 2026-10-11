@@ -28,7 +28,7 @@
     "baseline": [],
     "skill": []
   },
-  "author_review_issue": "Both new protected-original introductions drop the source relation to findings, which the initial assessor counted as a hard meaning failure. The new assessor treats the introduction as inflation and records no failure. This discrepancy is retained explicitly. No whole-suite success or superiority claim follows.",
+  "author_review_issue": "Subsequent independent content review confirms meaning loss in both de-protected-original answers. The source relation to findings was omitted. This supersedes the earlier unresolved status, while raw model judgments remain unchanged.",
   "reference_note": "The optional example reference was corrected after generation to retain solltest rather than turn the source recommendation into an imperative. Neither writer loaded it. The runtime SKILL.md stayed unchanged. The original generation snapshot retains the pre-correction reference hash.",
   "current_reference_sha256": "9aec36738f28a564a702a79d9f7aad58d2d099ad877f43e487a74357ce54b768",
   "limits": [
@@ -41,5 +41,13 @@
     "No cross-model or competing-skill comparison",
     "No native Codex or Copilot discovery test"
   ],
-  "raw_records": "Answers and scores have not been repaired, replaced, or normalized."
+  "raw_records": "Answers and scores have not been repaired, replaced, or normalized.",
+  "subsequent_content_review": {
+    "scope": "all 22 final pairs checked against their tasks",
+    "confirmed_case": "de-protected-original, both baseline and skill outputs",
+    "remaining_pairs": "No further clear material error identified in the other 21 pairs.",
+    "release_posture": "Experimental. No error-free validation or general performance-advantage claim.",
+    "raw_answers_unchanged": true,
+    "model_scores_unchanged": true
+  }
 }

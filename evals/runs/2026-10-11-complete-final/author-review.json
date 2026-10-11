@@ -1,9 +1,17 @@
 {
   "id": "de-protected-original",
-  "status": "unresolved semantic assessment discrepancy",
+  "status": "confirmed meaning loss after independent content review",
   "observation": "Both final introductions replace the source claim that the following material supports the findings with a description of the originals.",
   "initial_assessment": "The initial assessor counted this kind of loss as a hard meaning failure.",
   "final_assessment": "The final assessor accepted replacement of the inflated introduction and did not discuss preservation of that relation.",
-  "author_position": "Do not conceal or treat this discrepancy as a clean validation result. Main-chat content review must determine whether this source assertion is substantive or disposable rhetoric in the actual task.",
-  "scores_unchanged": true
+  "author_position": "The subsequent independent content review confirms that the source assertion about support for findings is meaningful and was lost in both final introductions. Preserving protected originals and disclosing the punctuation conflict do not compensate for this omission.",
+  "scores_unchanged": true,
+  "subsequent_content_review": {
+    "scope": "all 22 final pairs checked against their tasks",
+    "confirmed_case": "de-protected-original, both baseline and skill outputs",
+    "remaining_pairs": "No further clear material error identified in the other 21 pairs.",
+    "release_posture": "Experimental. No error-free validation or general performance-advantage claim.",
+    "raw_answers_unchanged": true,
+    "model_scores_unchanged": true
+  }
 }

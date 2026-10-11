@@ -61,7 +61,9 @@ The complete 20-case comparison was rerun in fresh baseline and skill writer ses
 
 The assessors recorded no hard meaning or editorial failures. All numerical ratings were 4. This means these assessors found both candidates suitable for the tasks. It does not demonstrate a benefit from the skill, and the ceiling ratings offer little resolution for smaller differences.
 
-There is a specific unresolved discrepancy. In `de-protected-original`, both final answers replace the source relation between the following material and the findings with a description of the originals. The initial assessor treated this kind of deletion as a hard meaning failure. The final assessor accepted replacement of the inflated introduction and did not address retention of that relation. The raw scores are unchanged. The author review records the conflict, so this run must not be advertised as a clean whole-suite validation.
+The subsequent independent content review resolved the specific discrepancy as a confirmed meaning loss. In `de-protected-original`, both final answers replace the source assertion that the following material supports the findings with a description of the originals. Protected quotations, code, and the URL stay exact, and both answers explain the punctuation conflict. Those successes do not compensate for the lost assertion. The initial assessor treated this kind of deletion as a hard meaning failure. The final assessors did not flag it. Their original scores and all raw answers remain unchanged.
+
+That content review checked all 22 pairs and found no further clear material error in the other 21 pairs. The confirmed case is recorded separately in the review note. The model ties remain plausible as preferences between the two outputs, but they are not an error-free validation. This experimental project makes no general performance-advantage claim. The skill already contains the relevant preservation rule, so no new general rule or further complete test round was added after the review.
 
 The final technical paragraph still repeats the optional Friday rollout, now in both conditions. The final assessors treated the explicit repetition as acceptable clarification. In the first run, an assessor preferred the less repetitive baseline. This illustrates the limited consistency of subjective model judgments on small differences.
 
@@ -71,7 +73,7 @@ The optional German example was corrected after generation so the source recomme
 
 A complete generation had already started against `1dc5040` when the additional review clarifications arrived. Its 40 raw answers are retained in [the preclarification run](runs/2026-10-11-preclarification/metadata.json), without grading or quality claims. It was superseded by the complete comparison above.
 
-Raw records: [baseline](runs/2026-10-11-complete-final/baseline.json), [skill](runs/2026-10-11-complete-final/skill.json), [judgments 1](runs/2026-10-11-complete-final/scores-1.json), [judgments 2](runs/2026-10-11-complete-final/scores-2.json), [mapping](runs/2026-10-11-complete-final/mapping.json), [hashes](runs/2026-10-11-complete-final/snapshot.json), [lexical check](runs/2026-10-11-complete-final/lexical-check.json), [execution and limits](runs/2026-10-11-complete-final/metadata.json), [author review of the discrepancy](runs/2026-10-11-complete-final/author-review.json).
+Raw records: [baseline](runs/2026-10-11-complete-final/baseline.json), [skill](runs/2026-10-11-complete-final/skill.json), [judgments 1](runs/2026-10-11-complete-final/scores-1.json), [judgments 2](runs/2026-10-11-complete-final/scores-2.json), [mapping](runs/2026-10-11-complete-final/mapping.json), [hashes](runs/2026-10-11-complete-final/snapshot.json), [lexical check](runs/2026-10-11-complete-final/lexical-check.json), [execution and limits](runs/2026-10-11-complete-final/metadata.json), [confirmed content-review finding](runs/2026-10-11-complete-final/author-review.json).
 
 ## Limits and host checks
 
