@@ -26,6 +26,8 @@ Preserve material facts, quantities, units, dates, names, attribution, compariso
 
 Keep who does what, by when, and under which conditions. Do not make an estimate a guarantee, invent a responsible person, add a refund, or turn a request into an agreement. Carry relevant uncertainty into concrete language. Remove habitual hesitation only when it adds no real qualification. Do not invent missing measurements or other reasons for uncertainty.
 
+Keep meaningful relations between observations and conclusions. Removing excluded vocabulary must not remove or strengthen a stated reason or connection. If a material relation cannot be expressed clearly within the wording rules from the available details, disclose that conflict instead of silently dropping it.
+
 Do not add personal experiences, emotions, opinions, quotations, sources, or endorsements to make writing sound human. A more definite stance may clarify an existing position. It must not add a new factual claim or commitment.
 
 ## Make the language useful
