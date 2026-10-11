@@ -1,0 +1,100 @@
+[
+  {
+    "id": "de-customer-draft",
+    "language": "de",
+    "mode": "draft",
+    "prompt": "Verfasse eine kurze Antwort an eine Kundin in der Sie-Form. Fakten: Ihr Paket ist seit vier Tagen verspätet. Unser Support hat heute eine Nachforschung beim Versanddienst gestartet. Wir melden uns bis Mittwoch, 16 Uhr, mit einem Update. Wann das Paket ankommt, wissen wir noch nicht. Es gibt keine zugesagte Erstattung. Die Kundin schreibt: 'Ich habe extra einen Tag freigenommen. Das ärgert mich.' Antworte konkret und höflich.",
+    "invariants": ["four-day delay", "support started carrier investigation today", "update by Wednesday 16:00, not delivery or resolution", "arrival unknown", "no refund promise", "Sie relationship", "respond to reported inconvenience without invented personal feelings"]
+  },
+  {
+    "id": "de-technical-revision",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite diesen Absatz für eine technische Kollegin, mit der ich per Du bin. Klar und natürlich, fachlich vollständig: 'Um unsere North Star auf die Straße zu bringen, sollten wir nun mutig handeln. Im Lasttest mit 200 gleichzeitigen Anfragen lag die mittlere Antwortzeit über 30 Prozent niedriger als in Version 2.1. Es gibt aber keine Evidenz dafür, dass Version 2.2 bei jeder Last schneller ist. Du könntest den Rollout am Freitag starten, falls das Infrastrukturteam bis Donnerstag die Freigabe erteilt. Das ist nicht bewiesen, sondern bislang nur eine Möglichkeit.'",
+    "invariants": ["200 simultaneous requests", "mean response time over 30 percent lower than version 2.1", "version 2.2 not known faster at every load", "rollout remains possible, not guaranteed or required", "Friday rollout conditional on infrastructure approval by Thursday", "Du relationship", "no invented missing measurements or extra test"]
+  },
+  {
+    "id": "de-clean-revision",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Prüfe, ob diese kurze Nachricht natürlicher oder klarer werden muss. Falls sie schon passt, gib sie unverändert zurück: 'Danke für den Hinweis. Ich habe den Termin auf Dienstag verschoben. Passt dir 14 Uhr?'",
+    "invariants": ["Tuesday", "14:00 remains a question", "sender has already moved the appointment", "Du relationship", "keep the already good wording unchanged"]
+  },
+  {
+    "id": "de-refusal-draft",
+    "language": "de",
+    "mode": "draft",
+    "prompt": "Schreibe eine kurze, bestimmte und höfliche Antwort in der Sie-Form. Fakten: Die gewünschte nachträgliche Änderung einer personalisierten Gravur ist bei diesem bereits versandten Stück nicht möglich. Es gibt in diesem Fall keine angebotene Alternative und keine genehmigte Erstattung. Sage klar ab, ohne eine neue Lösung oder Richtlinie zu erfinden.",
+    "invariants": ["already shipped piece", "personalized engraving cannot be changed afterwards", "clear refusal", "no invented refund, alternative, policy, or legal justification", "Sie relationship"]
+  },
+  {
+    "id": "de-real-list",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite für eine sachliche Hilfeseite, ohne Funktionen wegzulassen: 'Für eine bestmögliche und zukunftsorientierte Datenreise bietet das Werkzeug drei Exportwege: CSV für Tabellen; JSON für verschachtelte Daten; PDF für den unveränderlichen Bericht. Ein CSV-Export enthält keine eingebetteten Bilder. JSON erhält die Struktur. Im PDF bleiben die Seitenumbrüche erhalten.'",
+    "invariants": ["all three export routes", "CSV for tables and no embedded images", "JSON for nested data and structure preserved", "PDF for fixed report and page breaks preserved", "no invented export capabilities"]
+  },
+  {
+    "id": "de-punctuation-revision",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Formuliere diese Statusmeldung für das Team klar und natürlich: 'Die Prüfung läuft noch — das Ergebnis steht aus. Voraussichtlich endet sie zwischen 10–12 Uhr; Lea informiert uns danach. • Wichtig: Die Freigabe ist noch nicht erteilt. Die Null-Evidenz-Lage ist kein Grund für eine Behauptung, dass das Problem nicht bewiesen sei.' Es ist nur bekannt, dass die Prüfung noch läuft, das Ergebnis offen ist, sie voraussichtlich zwischen 10 und 12 Uhr endet, Lea danach informiert und die Freigabe noch fehlt. Füge keine Gründe hinzu.",
+    "invariants": ["check still running", "result open", "expected completion between 10 and 12, not guaranteed", "Lea informs afterwards", "approval not given", "no invented explanation for uncertainty"]
+  },
+  {
+    "id": "de-protected-original",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite nur die Einleitung für eine technische Dokumentation und gib danach das Original unverändert aus. Einleitung: 'Die nachfolgende Evidenz ist von entscheidender Bedeutung — sie unterstreicht unsere Erkenntnisse.' Original ist das wörtliche Fehlermeldungszitat 'No evidence found; retry — optional' und der Code `for (let i=0; i<2; i++) { run(); }`. Auch die URL `https://example.org/a;b` muss unverändert bleiben. Bitte im gesamten Ergebnis keine Gedankenstriche, Semikolons oder Evidenzvokabeln verwenden. Wenn das mit den unveränderten Originalen kollidiert, benenne den Konflikt statt die Originale heimlich zu ändern.",
+    "invariants": ["quote exact: No evidence found; retry — optional", "code exact: for (let i=0; i<2; i++) { run(); }", "URL exact: https://example.org/a;b", "rewrite editorial introduction", "disclose conflict with global exclusions", "no claim of satisfying exclusions everywhere"]
+  },
+  {
+    "id": "en-customer-revision",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Revise this customer update in a clear, professional tone. Keep its commitments: 'We are thrilled to align on the next chapter of your integration journey. Our engineering team expects to finish the import by Friday if you approve the field mapping by Wednesday at 12:00 UTC. We will send you a progress update on Thursday regardless of whether approval has arrived. This estimate does not include historical attachments.'",
+    "invariants": ["engineering team responsible", "expected finish Friday conditional on customer mapping approval Wednesday 12:00 UTC", "Thursday progress update unconditional", "historical attachments outside estimate", "no guaranteed completion"]
+  },
+  {
+    "id": "en-quantifier-revision",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Edit this short technical report for clarity without dropping limitations: 'The prototype used over 30% less memory than build A in three runs with the same input. The median runtime was 12.4 seconds, compared with 12.1 seconds for build A. The results do not prove that the prototype is faster. Our evidence is limited to these three runs, so we cannot generalize to other inputs.'",
+    "invariants": ["over 30 percent less memory", "comparison build A", "three runs with same input", "prototype median runtime 12.4 seconds versus 12.1 for A", "no faster claim", "scope limited to these runs and input", "no invented missing data"]
+  },
+  {
+    "id": "en-clean-revision",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Check this message for clarity and naturalness. Return it unchanged if it already works: 'Thanks for catching that. I changed the label to “Save draft” and kept the keyboard shortcut.'",
+    "invariants": ["label exact: Save draft", "label changed already", "keyboard shortcut kept", "no invented emotion or experience", "keep already good wording unchanged"]
+  },
+  {
+    "id": "en-long-explanation-draft",
+    "language": "en",
+    "mode": "draft",
+    "prompt": "Explain idempotency to a junior developer in about 140 to 190 words. Use only this briefing: An operation is idempotent when repeating the same request has the same intended effect as making it once. Repeating a request can still produce additional log entries. A payment API may use an idempotency key so a repeated payment request with the same key does not create another charge. In this hypothetical API the stored result expires after 24 hours. After expiry the same key is treated as new. Idempotency alone does not guarantee that a request is authorized. Give a useful concrete example, without claiming personal experience.",
+    "invariants": ["same intended effect", "additional log entries possible", "same key prevents another charge while result retained", "hypothetical 24-hour expiry", "same key treated new after expiry", "authorization separate", "140 to 190 words", "no invented personal experience"]
+  },
+  {
+    "id": "en-refusal-draft",
+    "language": "en",
+    "mode": "draft",
+    "prompt": "Write a brief, courteous refusal to a workshop applicant. Facts: This session is full. There is no waiting list. The next session is scheduled for 18 November. Booking opens on 4 November. Do not promise a place or invent another way to attend.",
+    "invariants": ["session full", "no waiting list", "next session scheduled 18 November", "booking opens 4 November", "no place promise or extra alternative"]
+  },
+  {
+    "id": "en-punctuation-revision",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Rewrite this update clearly for coworkers, keeping the factual limits: 'The patch is ready — testing is still in progress. We expect a decision in 2–3 days; Sam owns the review. • There is no evidence that it fixes all failures. That broader claim is not proven.' Facts: Patch ready, testing ongoing, decision expected in two to three days, Sam responsible for review, current testing does not support a claim about all failures. No other reason for that uncertainty is available.",
+    "invariants": ["patch ready", "testing ongoing", "expected decision two to three days", "Sam owns review", "no all-failures claim", "no invented reason or missing metrics"]
+  },
+  {
+    "id": "en-terms-and-list",
+    "language": "en",
+    "mode": "draft",
+    "prompt": "Write a compact instruction for an experienced database engineer. Facts: Before promoting this replica, the engineer must check replication lag, verify the last committed transaction ID, and confirm that the old primary cannot accept writes. These are three distinct required checks. Promotion is allowed only after all three pass. Keep the technical terms precise.",
+    "invariants": ["three distinct required checks", "check replication lag", "verify last committed transaction ID", "confirm old primary cannot accept writes", "promote only after all three pass", "must remains mandatory", "no extra invented threshold"]
+  }
+]
