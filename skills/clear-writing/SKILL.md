@@ -44,6 +44,8 @@ Let the content determine length and structure. A short answer can be one senten
 
 In editorially writable natural language, do not use `Evidenz`, its derivatives, `evidence`, or abstract proof talk such as `nicht bewiesen` or `not proven`. Express the actual state of knowledge in ordinary, specific language without strengthening the claim or inventing a reason.
 
+For uncertainty, name the concrete open question or limit of the work. Replacing a proof verdict with `nicht belegt`, `not established`, `does not establish`, or `not demonstrated` still violates this rule. Rebuild the statement around what remains unknown or what was actually checked.
+
 Do not use em dashes, en dashes, hyphens acting as thought dashes, semicolons, or the U+2022 bullet character. Rewrite with sentences, commas, parentheses, or another suitable structure. Use numbered lists or ordinary Markdown list markers when useful. Normal hyphens inside words remain valid.
 
 Preserve executable syntax, URLs, identifiers, and verbatim external quotations. These are protected original material, not editable prose. Rewrite the surrounding language. If the requested exclusions conflict with an exact quotation or required syntax, briefly explain the conflict and offer a paraphrase or other suitable presentation when possible. Never silently alter protected material or claim that it meets the prose exclusions.
