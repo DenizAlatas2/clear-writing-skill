@@ -8,7 +8,7 @@ It also applies an opinionated editorial policy: no abstract proof talk, em or e
 
 ## Install
 
-This candidate is awaiting review and has not been published. The GitHub clone commands below describe the intended repository after publication. You can use the local skill folder now.
+The experimental project is published at [DenizAlatas2/clear-writing-skill](https://github.com/DenizAlatas2/clear-writing-skill). The repository, README, and skill contents have been read from GitHub and checked against the local files. The commands below use that verified public repository.
 
 The documented shared location for project skills is `.agents/skills`. The documented shared personal location is `~/.agents/skills`. Copy the whole `clear-writing` folder, including its references and license. These locations are supported by the current [Codex documentation](https://learn.chatgpt.com/docs/customization/overview#skills) and [GitHub Copilot documentation](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills).
 
