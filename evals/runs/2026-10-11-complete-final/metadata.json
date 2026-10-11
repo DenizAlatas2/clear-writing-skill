@@ -1,0 +1,45 @@
+{
+  "date_utc": "2026-10-11",
+  "execution": "Fresh platform collaboration writers and independent blinded model assessors in Codex",
+  "model": "Inherited platform model, no override, exact identifier not exposed",
+  "scope": {
+    "original_cases": 20,
+    "separate_boundary_cases": 2,
+    "raw_answers": 44
+  },
+  "original_tasks_unchanged": "The original cases file hash is identical to the initial comparison: 20a7811c26bd727193fab7953f64f26ebeb00a162b4649d83f223c3bd5b93c49",
+  "criteria": "Same five dimensions, hard meaning and editorial failures, and original case invariants. Formal mathematical notation was added only as a protected-material clarification for the separate boundary case.",
+  "writer_context": "One fresh session per condition with 22 tasks. No per-case reset. Writers did not receive assessor criteria or prior results.",
+  "skill_resources_read": [
+    "SKILL.md"
+  ],
+  "assessment": "Two fresh assessor sessions, 11 alternating cases each. Random A/B ordering with the same seed 736019 and same assignments for the 20 original cases.",
+  "preferences_original": {
+    "baseline": 0,
+    "skill": 0,
+    "tie": 20
+  },
+  "preferences_boundary": {
+    "baseline": 0,
+    "skill": 0,
+    "tie": 2
+  },
+  "recorded_assessor_hard_failures": {
+    "baseline": [],
+    "skill": []
+  },
+  "author_review_issue": "Both new protected-original introductions drop the source relation to findings, which the initial assessor counted as a hard meaning failure. The new assessor treats the introduction as inflation and records no failure. This discrepancy is retained explicitly. No whole-suite success or superiority claim follows.",
+  "reference_note": "The optional example reference was corrected after generation to retain solltest rather than turn the source recommendation into an imperative. Neither writer loaded it. The runtime SKILL.md stayed unchanged. The original generation snapshot retains the pre-correction reference hash.",
+  "current_reference_sha256": "9aec36738f28a564a702a79d9f7aad58d2d099ad877f43e487a74357ce54b768",
+  "limits": [
+    "One generation per condition",
+    "Strong standing platform writing guidance in baseline",
+    "Model assessors, no human panel",
+    "Every pair judged once",
+    "All numerical scores at ceiling, so limited sensitivity to small differences",
+    "A material-preservation judgment conflicts with the earlier assessor",
+    "No cross-model or competing-skill comparison",
+    "No native Codex or Copilot discovery test"
+  ],
+  "raw_records": "Answers and scores have not been repaired, replaced, or normalized."
+}

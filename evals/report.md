@@ -46,11 +46,38 @@ This confirms the correction on these two development cases. It is not a fresh h
 
 Raw records: [cases](runs/2026-10-11-uncertainty/cases.json), [reused baseline](runs/2026-10-11-uncertainty/baseline.json), [new skill answers](runs/2026-10-11-uncertainty/skill.json), [judgments](runs/2026-10-11-uncertainty/scores.json), [mapping](runs/2026-10-11-uncertainty/mapping.json), [hashes](runs/2026-10-11-uncertainty/snapshot.json), [execution and limits](runs/2026-10-11-uncertainty/metadata.json).
 
+## Complete comparison of final instructions
+
+Tested runtime candidate: `9680f137087254cef4cc589fe7102c5510e41a89`.
+
+Runtime `SKILL.md` SHA-256: `946263cd343ec549d1df4e4689c522b617fe2025d11dd7eefd6d5d76962335d9`.
+
+The complete 20-case comparison was rerun in fresh baseline and skill writer sessions. The original prompts and invariants were unchanged, with the original case file hash retained. Two separate boundary cases were appended for a numerical range with formal mathematical notation and a specific methodological limit. Two new blinded assessors each judged 11 alternating pairs, using the same dimensions and hard-failure requirements. The original 20 cases retained their seeded A/B assignments.
+
+| Scope | Baseline preferred | Skill preferred | Ties |
+| --- | --- | --- | --- |
+| Original 20 cases | 0 | 0 | 20 |
+| Separate boundary cases | 0 | 0 | 2 |
+
+The assessors recorded no hard meaning or editorial failures. All numerical ratings were 4. This means these assessors found both candidates suitable for the tasks. It does not demonstrate a benefit from the skill, and the ceiling ratings offer little resolution for smaller differences.
+
+There is a specific unresolved discrepancy. In `de-protected-original`, both final answers replace the source relation between the following material and the findings with a description of the originals. The initial assessor treated this kind of deletion as a hard meaning failure. The final assessor accepted replacement of the inflated introduction and did not address retention of that relation. The raw scores are unchanged. The author review records the conflict, so this run must not be advertised as a clean whole-suite validation.
+
+The final technical paragraph still repeats the optional Friday rollout, now in both conditions. The final assessors treated the explicit repetition as acceptable clarification. In the first run, an assessor preferred the less repetitive baseline. This illustrates the limited consistency of subjective model judgments on small differences.
+
+The longer idempotency explanation now includes a concrete hypothetical key in both conditions and was rated a tie. The final testing update expresses the unresolved question in relation to current testing, rather than as an unexplained general uncertainty. Both boundary cases retained their substance, including the range `10 bis 12 mg`, the exact formal expression, and the study's specific measurement limitation.
+
+The optional German example was corrected after generation so the source recommendation remains a recommendation. Neither writer read the example reference. The runtime instructions remained unchanged, and the recorded snapshot distinguishes the reference versions.
+
+A complete generation had already started against `1dc5040` when the additional review clarifications arrived. Its 40 raw answers are retained in [the preclarification run](runs/2026-10-11-preclarification/metadata.json), without grading or quality claims. It was superseded by the complete comparison above.
+
+Raw records: [baseline](runs/2026-10-11-complete-final/baseline.json), [skill](runs/2026-10-11-complete-final/skill.json), [judgments 1](runs/2026-10-11-complete-final/scores-1.json), [judgments 2](runs/2026-10-11-complete-final/scores-2.json), [mapping](runs/2026-10-11-complete-final/mapping.json), [hashes](runs/2026-10-11-complete-final/snapshot.json), [lexical check](runs/2026-10-11-complete-final/lexical-check.json), [execution and limits](runs/2026-10-11-complete-final/metadata.json), [author review of the discrepancy](runs/2026-10-11-complete-final/author-review.json).
+
 ## Limits and host checks
 
 Writers and assessors ran as platform agents in Codex. No model override was set, and the exact inherited model identifier was not exposed by the tool. Each writer session contained its batch of cases, so there was no context reset between individual cases. Each pair had one assessor, with no interjudge reliability measurement. There was no human panel, cross-model study, live customer material, or comparison with existing public skills.
 
-The final skill must be assessed by its recorded snapshot. The complete 20-case run belongs to the earlier candidate. Later targeted checks do not mean that all 20 cases were rerun against the final instructions.
+The final skill must be assessed by its recorded snapshot. The initial comparison belongs to the earlier candidate, and the complete rerun above belongs to the final runtime instructions. Earlier targeted checks remain development records. No scores or original prompts were changed to improve the reported results.
 
 `gh skill publish --dry-run .` passed using GitHub CLI 2.92.0. Full-folder copying into isolated project and simulated personal `.agents/skills` layouts preserved all three runtime files and refused an existing target. The standalone Copilot CLI could not start under the cache write restriction. Native Codex and Copilot discovery and invocation are therefore untested. No login, configuration, reconnection, paid API runner, or hosted CI was added.
 

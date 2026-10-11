@@ -1,0 +1,189 @@
+[
+  {
+    "id": "de-customer-draft",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "A concise, polite Sie response. It states the four-day delay, today's carrier investigation, the Wednesday 16:00 update deadline, and the unknown arrival date. The apology acknowledges the customer's reported day off without inventing an emotion for her or promising a refund. The singular apology is compatible with an individual support representative speaking for the company. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "A concise, polite Sie response preserving every operational fact and the limited commitment to an update. It acknowledges the reported inconvenience without adding a refund, arrival estimate, or invented personal feelings. The plural apology fits the company's voice. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The singular versus plural apology and the word order around the investigation are minor voice choices. Both distinguish the promised update from delivery and preserve the customer's concrete inconvenience. Neither has a meaningful advantage."
+  },
+  {
+    "id": "de-clean-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Returns the already natural original unchanged, as requested. Tuesday remains the appointment's new day, the move has already happened, 14 Uhr remains a question, and the Du relationship is retained. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Returns the already natural original unchanged, as requested. Tuesday remains the appointment's new day, the move has already happened, 14 Uhr remains a question, and the Du relationship is retained. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical and satisfy the explicit instruction to leave suitable wording alone."
+  },
+  {
+    "id": "de-real-list",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Removes the inflated opening and organizes the three routes into readable numbered entries. CSV's lack of embedded images, JSON's nested-data purpose and retained structure, and PDF's fixed report and retained page breaks all remain. The numbering does not assert a workflow or add a capability. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Uses a plain introduction and a readable Markdown list. Every route, purpose, limitation, and preservation property is retained. Exportmöglichkeiten is natural help-page vocabulary. The hyphens are permitted Markdown list markers. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A numbers the alternatives and calls them Exportwege, while B uses an unordered list and Exportmöglichkeiten. Both pair each format with its complete behavior. Those presentation choices do not establish a substantive quality difference."
+  },
+  {
+    "id": "de-protected-original",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Replaces the inflated introduction with a straightforward description and explicitly discloses that exact reproduction conflicts with the global exclusions. The error quotation, executable code, and URL are exact. Excluded words and punctuation occur only inside these protected originals, so the stated exemption applies. It does not claim that the exclusions are satisfied throughout."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Provides a plain technical introduction, then clearly explains why the two global requirements cannot both be met. The quotation, code, and URL are exact. Excluded words and punctuation occur only in the protected originals, with the conflict disclosed as required. No claim of universal compliance and no editorial violation in the editable prose."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A puts the conflict notice before the rewritten introduction, while B puts the introduction first and spells out the incompatibility in a separate paragraph. Both make the conflict unambiguous and preserve all protected material. Neither ordering materially improves fulfillment."
+  },
+  {
+    "id": "en-quantifier-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves the strict greater-than-30% reduction, build A comparison, three same-input runs, both median runtimes, and restriction against generalizing to other inputs. More than faithfully retains over. The limitation is explicitly tied to these actual results. I treat this as a concrete limitation statement rather than abstract proof talk. No forbidden vocabulary or punctuation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves all quantities, comparisons, run conditions, and the restriction on other inputs. Slower by that measure is a valid, qualified interpretation of the reported 12.4-second versus 12.1-second medians, not an invented general performance claim. It supplies no missing measurements. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A keeps the explicit limitation on calling the prototype faster and moves the run conditions to the start. B directly explains the direction of the runtime comparison, carefully restricting it to that measure. Both preserve the scope limitation. Their different emphasis is useful but does not make one materially superior."
+  },
+  {
+    "id": "en-long-explanation-draft",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Approximately 160 whitespace-separated words, within the requested range. The order-42 example explains duplicate-charge prevention, separates extra log entries from the intended effect, states the hypothetical 24-hour expiry and treatment of the same key as new, and keeps authorization separate. Could create another charge correctly avoids guaranteeing a new charge after expiry. The language is accessible to a junior developer and claims no personal experience. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Approximately 155 whitespace-separated words, within the requested range. It gives the same-intended-effect definition and a concrete payment-key example, explicitly bounds duplicate protection to retention, explains the 24-hour expiry and new treatment afterward, permits additional logs, and separates authorization. It makes no personal-experience claim or unconditional promise of a post-expiry charge. Appropriate for a junior developer. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A explains log entries alongside the payment example and states the possible second charge after expiry. B places the retention period directly in the example and groups the log and authorization qualifications at the end. Both are complete, clear, and within the word range. The five-word length difference provides no substantive advantage."
+  },
+  {
+    "id": "en-punctuation-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves readiness, ongoing testing, an expected decision in two to three days, Sam's responsibility, and the limit on any all-failures claim. The final sentence specifically describes what current testing supports and invents no reason for the uncertainty. I treat this concrete testing limitation as distinct from abstract proof talk. All excluded vocabulary and punctuation have been removed."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves every scheduling and ownership fact. Leaves open whether clearly retains the unresolved all-failures question and ties it to current testing, without inventing absent data or another cause. The decision remains an expectation rather than a guarantee. All excluded vocabulary and punctuation have been removed."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The first three sentences are identical. A states the testing limit as an unsupported broader claim, while B expresses it as an unresolved question. Both retain the same practical uncertainty and the same source of that uncertainty. Neither introduces a factual or register weakness."
+  },
+  {
+    "id": "de-short-conversion",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Gives the correct conversion directly in one short sentence, without a preamble or routine offer. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Gives the correct conversion directly in one short sentence, without a preamble or routine offer. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical and exactly match the requested short conversion."
+  },
+  {
+    "id": "de-calendar-draft",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "A natural, short colleague message in the Du form. It says the Monday appointment must move because another appointment takes longer, then asks about Tuesday at 10 Uhr. It adds no personal backstory or judgment. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "A natural, short colleague message in the Du form. It says the Monday appointment must move because another appointment takes longer, then asks about Tuesday at 10 Uhr. It adds no personal backstory or judgment. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical and preserve every scheduling fact and the requested relationship."
+  },
+  {
+    "id": "de-shipping-question",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "States only the available confirmation from today and that delivery timing is unknown. Ihr maintains the Sie relationship. No invented carrier, tracking information, transit estimate, or support commitment. Clear and suitably short. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "States only the confirmation from today and the unknown delivery date. Ihr maintains the Sie relationship. The slightly more formal ist uns noch nicht bekannt remains natural customer-service language and adds no estimate or commitment. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A uses the direct wissen wir phrasing, while B explicitly attaches the confirmation to Ihr Paket and uses the more formal ist uns bekannt. Both give the same appropriately limited answer. Their two-word length difference is immaterial."
+  },
+  {
+    "id": "de-range-and-math",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Correctly renders the mass range as 10 bis 12 mg and preserves that the measurement remains within the intended range. The formal expression x - 2 = 0 is exact and exempt from the prose punctuation restriction. No added technical detail or excluded punctuation in editable prose."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Correctly renders the mass range as 10 bis 12 mg and preserves that the measurement remains within the intended range. The formal expression x - 2 = 0 is exact and exempt from the prose punctuation restriction. No added technical detail or excluded punctuation in editable prose."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical. Each removes the prose dashes while preserving the range, unit, technical claim, and exact formal notation."
+  }
+]

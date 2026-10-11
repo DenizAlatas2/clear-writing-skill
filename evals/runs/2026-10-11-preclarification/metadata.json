@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-10-11",
+  "execution": "Fresh platform collaboration writers, one session per condition, 20 original prompts",
+  "state": "Both generations completed before the additional source-check, methodological-scope, and mathematics clarifications were integrated.",
+  "assessment": "No assessors were run on this superseded candidate. Outputs retained without grading or quality claims.",
+  "next_run": "The complete final run uses the 20 unchanged original cases plus two separately labelled boundary cases against the clarified runtime snapshot.",
+  "skill_resources_read": [
+    "SKILL.md"
+  ],
+  "model": "Inherited platform model, exact identifier not exposed, no override"
+}

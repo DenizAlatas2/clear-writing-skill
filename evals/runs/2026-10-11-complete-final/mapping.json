@@ -1,0 +1,112 @@
+[
+  {
+    "id": "de-customer-draft",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "de-technical-revision",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-clean-revision",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-refusal-draft",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-real-list",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-punctuation-revision",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "de-protected-original",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "en-customer-revision",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-quantifier-revision",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-clean-revision",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-long-explanation-draft",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-refusal-draft",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-punctuation-revision",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-terms-and-list",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-short-conversion",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "en-arithmetic-correction",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-calendar-draft",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-release-status",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "de-shipping-question",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-invitation-draft",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "de-range-and-math",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-method-scope",
+    "A": "skill",
+    "B": "baseline"
+  }
+]

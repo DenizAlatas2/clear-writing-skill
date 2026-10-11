@@ -1,0 +1,90 @@
+[
+  {
+    "id": "de-customer-draft",
+    "output": "Es tut mir leid, dass Ihr Paket seit vier Tagen verspätet ist und Sie dafür extra einen Tag freigenommen haben. Unser Support hat heute eine Nachforschung beim Versanddienst gestartet. Wir melden uns bis Mittwoch um 16 Uhr mit einem Update. Wann das Paket ankommt, wissen wir derzeit noch nicht."
+  },
+  {
+    "id": "de-technical-revision",
+    "output": "Im Lasttest mit 200 gleichzeitigen Anfragen lag die mittlere Antwortzeit von Version 2.2 mehr als 30 Prozent unter der von Version 2.1. Daraus lässt sich nicht ableiten, dass Version 2.2 bei jeder Last schneller ist. Wenn das Infrastrukturteam bis Donnerstag die Freigabe erteilt, könntest du den Rollout am Freitag starten. Das ist bisher eine Möglichkeit."
+  },
+  {
+    "id": "de-clean-revision",
+    "output": "Danke für den Hinweis. Ich habe den Termin auf Dienstag verschoben. Passt dir 14 Uhr?"
+  },
+  {
+    "id": "de-refusal-draft",
+    "output": "Eine nachträgliche Änderung Ihrer personalisierten Gravur ist leider nicht möglich, da das Stück bereits versandt wurde."
+  },
+  {
+    "id": "de-real-list",
+    "output": "Das Werkzeug bietet drei Exportmöglichkeiten:\n\n- CSV für Tabellen. Der Export enthält keine eingebetteten Bilder.\n- JSON für verschachtelte Daten. Die Struktur bleibt erhalten.\n- PDF für einen unveränderlichen Bericht. Die Seitenumbrüche bleiben erhalten."
+  },
+  {
+    "id": "de-punctuation-revision",
+    "output": "Die Prüfung läuft noch, das Ergebnis ist offen. Sie endet voraussichtlich zwischen 10 und 12 Uhr. Lea informiert uns danach. Die Freigabe ist noch nicht erteilt."
+  },
+  {
+    "id": "de-protected-original",
+    "output": "Die folgenden Angaben dokumentieren die Fehlermeldung, den Code und die URL.\n\nDie unveränderten Originale enthalten Wörter und Satzzeichen, die Sie für das gesamte Ergebnis ausgeschlossen haben. Beide Vorgaben lassen sich nicht gleichzeitig erfüllen. Die Originale bleiben deshalb unverändert.\n\n'No evidence found; retry — optional'\n\n`for (let i=0; i<2; i++) { run(); }`\n\n`https://example.org/a;b`"
+  },
+  {
+    "id": "en-customer-revision",
+    "output": "Our engineering team expects to finish the import by Friday if you approve the field mapping by Wednesday at 12:00 UTC. We will send a progress update on Thursday, whether or not we have received your approval. This estimate does not include historical attachments."
+  },
+  {
+    "id": "en-quantifier-revision",
+    "output": "In three runs with the same input, the prototype used more than 30% less memory than build A. Its median runtime was 12.4 seconds, compared with 12.1 seconds for build A. These results do not show that the prototype is faster. They cover only these three runs, so we cannot generalize to other inputs."
+  },
+  {
+    "id": "en-clean-revision",
+    "output": "Thanks for catching that. I changed the label to “Save draft” and kept the keyboard shortcut."
+  },
+  {
+    "id": "en-long-explanation-draft",
+    "output": "An operation is idempotent if repeating the same request has the same intended effect as sending it once. This is useful when you need to repeat a payment request without creating a second charge.\n\nFor example, imagine sending a payment request with the idempotency key `order-42`. If you send that request again with the same key, the payment API uses the stored result and does not create another charge. The repeated request may still add another log entry. Idempotency applies to the intended effect of the operation, so those extra entries do not make it non-idempotent.\n\nIn this hypothetical API, the stored result expires after 24 hours. Once it expires, the API treats the same key as new. Reusing `order-42` after that point could therefore create another charge.\n\nAuthorization is a separate requirement. An idempotency key helps control the effect of repeated requests, but it does not guarantee that the person making the request is allowed to make the payment."
+  },
+  {
+    "id": "en-refusal-draft",
+    "output": "Thank you for your interest. We’re unable to offer you a place because this session is full. There is no waiting list. The next session is scheduled for 18 November, and booking opens on 4 November."
+  },
+  {
+    "id": "en-punctuation-revision",
+    "output": "The patch is ready, and testing is still in progress. We expect a decision in two to three days. Sam is responsible for the review. Current testing does not support a claim that the patch fixes all failures."
+  },
+  {
+    "id": "en-terms-and-list",
+    "output": "Before promoting this replica, complete all three checks:\n\n1. Check replication lag.\n2. Verify the last committed transaction ID.\n3. Confirm that the old primary cannot accept writes.\n\nPromote the replica only after all three checks pass."
+  },
+  {
+    "id": "de-short-conversion",
+    "output": "3 Stunden sind 180 Minuten."
+  },
+  {
+    "id": "en-arithmetic-correction",
+    "output": "No, 17 × 8 = 136."
+  },
+  {
+    "id": "de-calendar-draft",
+    "output": "Ich muss unseren Termin am Montag verschieben, weil ein anderer Termin länger dauert. Passt dir Dienstag um 10 Uhr?"
+  },
+  {
+    "id": "en-release-status",
+    "output": "Two login tests failed with HTTP 401 after token refresh, blocking the release. 48 tests passed. The auth team is investigating. We do not yet have a fix date."
+  },
+  {
+    "id": "de-shipping-question",
+    "output": "Uns liegt eine Versandbestätigung von heute vor. Wann Ihr Paket zugestellt wird, wissen wir noch nicht."
+  },
+  {
+    "id": "en-invitation-draft",
+    "output": "Join us for a board-game evening on Saturday at 18:30 in Room 4 of the community centre. You’re welcome to bring a game if you have one, but it’s optional."
+  },
+  {
+    "id": "de-range-and-math",
+    "output": "Die Probenmasse beträgt 10 bis 12 mg. Der Messwert bleibt im vorgesehenen Bereich. Die Formel `x - 2 = 0` ist als formale mathematische Notation unverändert wiederzugeben."
+  },
+  {
+    "id": "en-method-scope",
+    "output": "The questionnaire records which interface respondents prefer. It does not tell us whether their choice helps them complete tasks, because the study does not measure completion times or success rates. The interfaces may still differ in task performance."
+  }
+]

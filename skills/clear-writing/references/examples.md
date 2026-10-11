@@ -30,9 +30,9 @@ Input:
 
 Revision:
 
-> Implementiere die Token-Rotation so, dass bestehende Tokens noch 15 Minuten gültig bleiben.
+> Du solltest die Token-Rotation so implementieren, dass bestehende Tokens noch 15 Minuten gültig bleiben.
 
-The required behavior stays explicit. The technical term and the ordinary word hyphen remain. The metaphor contributes no additional instruction here.
+The recommendation remains a recommendation. Existing tokens must still remain valid for 15 minutes. The technical term and the ordinary word hyphen remain. The metaphor contributes no additional instruction here.
 
 ## EN: Draft a clear refusal
 

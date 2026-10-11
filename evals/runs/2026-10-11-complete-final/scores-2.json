@@ -1,0 +1,321 @@
+[
+  {
+    "id": "de-technical-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the test load, mean response-time comparison, uncertainty across loads, optional rollout, Thursday approval deadline, Friday start, and Du address. The explicit final sentence makes the tentative status clear. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the same technical figures and rollout condition. The inference sentence clearly limits what the test supports, and könnte keeps the rollout optional. The final Das has an understandable referent in context. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A states the uncertainty as something not yet known and explicitly names the Friday start in the closing sentence. B frames the uncertainty as a limit on inference from the test and puts the approval condition first. Both communicate the supplied facts naturally and completely."
+  },
+  {
+    "id": "de-refusal-draft",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Gives a clear, courteous refusal for the customer's already shipped piece, with personalized engraving and Sie address intact. It adds no alternative, refund, policy, or legal justification. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Clearly refuses the engraving change and identifies the piece as already shipped. Ihrer maintains Sie address, and leider provides restrained courtesy. The shipping explanation stays within the supplied circumstances and introduces no separate policy. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A locates the refusal directly in this already shipped piece. B connects the refusal to the stated shipping circumstance with da. Both are brief, polite, firm, and within the given facts."
+  },
+  {
+    "id": "de-punctuation-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Includes the ongoing check, open result, expected completion between 10 and 12, Lea's subsequent update, and missing approval. Voraussichtlich preserves uncertainty. No reasons or prohibited editorial forms are added."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Includes the ongoing check, open result, expected completion between 10 and 12, Lea's subsequent update, and missing approval. Voraussichtlich preserves uncertainty. No reasons or prohibited editorial forms are added."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The candidates are identical. Both remove the unwanted punctuation and abstract proof language while retaining every known status fact and the qualified completion time."
+  },
+  {
+    "id": "en-customer-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Retains engineering responsibility, expected Friday completion conditional on mapping approval by Wednesday at 12:00 UTC, an unconditional Thursday progress update, and the historical-attachment exclusion. The customer remains the understood update recipient. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Retains engineering responsibility, the precise conditional completion estimate, the unconditional Thursday update to the customer, and the historical-attachment exclusion. Expectations are not upgraded to guarantees. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A says whether or not we have received your approval. B says whether or not approval has arrived and retains the explicit you as update recipient. These are equivalent commitments in this customer update, with no consequential difference in clarity or tone."
+  },
+  {
+    "id": "en-clean-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Returns the already clear message unchanged, including the exact Save draft label, completed label change, and retained keyboard shortcut. It invents no experience or emotion. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Returns the already clear message unchanged, including the exact Save draft label, completed label change, and retained keyboard shortcut. It invents no experience or emotion. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The candidates are identical and follow the explicit instruction to leave working wording unchanged."
+  },
+  {
+    "id": "en-refusal-draft",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Explicitly declines a place, states that the session is full and there is no waiting list, and preserves both November dates. The brief thank-you is courteous without promising attendance or inventing an arrangement. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Clearly communicates the refusal through the full-session status and lack of waiting list. It preserves the scheduled next session and booking dates. Unfortunately supplies appropriate courtesy, and no place or extra attendance route is promised. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A adds an explicit refusal and a short thank-you. B uses a shorter factual refusal with unfortunately. Both are brief and courteous, and both provide the same available scheduling information without a new promise."
+  },
+  {
+    "id": "en-terms-and-list",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Presents all three distinct checks with precise technical terms, explicitly uses must, and permits promotion only after all checks pass. It invents no lag threshold or other check. Numbered Markdown items comply with the editorial requirement."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Presents the same three distinct required checks. Complete all three checks is a mandatory imperative, reinforced by the rule that promotion follows only after all pass. No threshold is invented. Numbered Markdown items comply with the editorial requirement."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A makes obligation explicit with you must. B uses the equally binding imperative complete all three checks. Their check lists and promotion gate are identical, so the difference does not weaken the mandatory requirement."
+  },
+  {
+    "id": "en-arithmetic-correction",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Rejects 126 and gives the correct result, 136, in a short answer without praise or a follow-up offer. The multiplication sign and equation are permitted mathematical notation. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Rejects 126 and gives the correct result, 136, in a short answer without praise or a follow-up offer. The multiplication sign and equation are permitted mathematical notation. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The only difference is a full stop versus a comma after No. Both are natural, correct, and appropriately short."
+  },
+  {
+    "id": "en-release-status",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the two failed login tests, HTTP 401 after token refresh, the release-blocking consequence, 48 passing tests, auth-team investigation, and unknown fix date. The lead foregrounds the failure that matters to engineers. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves all test counts, the HTTP 401 failure after token refresh, the release block, the auth-team investigation, and the absence of a fix date. The lead gives release status immediately. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A leads with the failing tests and their consequence. B leads with the blocked release and then explains the same failures. Both orders make the engineering status easy to assess and retain every substantive detail."
+  },
+  {
+    "id": "en-invitation-draft",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Gives the exact day, time, and location. The welcome to bring a game if available, followed by explicit optionality, communicates a voluntary invitation. It adds no arrangements, promises, or personal excitement. Board-game is an allowed word hyphen. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Gives the exact day, time, and location. Please bring a game if you have one preserves the soft request, and the following sentence explicitly makes it optional. It invents no other arrangements. Board-game is an allowed word hyphen. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A combines the conditional invitation and optionality in one sentence. B states a polite request and then clarifies optionality separately. Both make bringing a game voluntary and conditional on having one, with the same event details."
+  },
+  {
+    "id": "en-method-scope",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves stated interface preference and the specific absence of completion-time and success-rate measurements. It explains why the study cannot determine improvement, and retains the possibility of performance differences. Faster or more successfully concretely reflects the two stated measures without inventing study details. No editorial violations."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the preference question, both missing outcome measures, the resulting methodological limit on assessing task-completion benefit, and the possibility of performance differences. It does not reduce the limitation to an unexplained unknown answer. No editorial violations."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A names the possible benefits as faster or more successful task completion. B uses the broader phrase helps them complete tasks. Both connect the limitation to the missing measurements and preserve that the interfaces could differ in performance, using ordinary language."
+  }
+]
