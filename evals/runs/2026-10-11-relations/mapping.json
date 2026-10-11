@@ -1,0 +1,22 @@
+[
+  {
+    "id": "de-protected-original",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-punctuation-revision",
+    "A": "skill",
+    "B": "baseline"
+  },
+  {
+    "id": "de-relation-holdout",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-relation-holdout",
+    "A": "skill",
+    "B": "baseline"
+  }
+]

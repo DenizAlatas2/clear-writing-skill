@@ -1,0 +1,82 @@
+[
+  {
+    "id": "de-customer-draft",
+    "output": "Es tut uns leid, dass Ihr Paket seit vier Tagen verspätet ist und Sie dafür extra einen Tag freigenommen haben. Unser Support hat heute eine Nachforschung beim Versanddienst gestartet. Wir melden uns bis Mittwoch, 16 Uhr, mit einem Update. Wann Ihr Paket ankommt, wissen wir noch nicht."
+  },
+  {
+    "id": "de-technical-revision",
+    "output": "Im Lasttest mit 200 gleichzeitigen Anfragen war die mittlere Antwortzeit in Version 2.2 um über 30 Prozent niedriger als in Version 2.1. Ob Version 2.2 bei jeder Last schneller ist, bleibt offen. Du könntest den Rollout am Freitag starten, falls das Infrastrukturteam bis Donnerstag die Freigabe erteilt. Der Start am Freitag ist bislang nur eine Möglichkeit."
+  },
+  {
+    "id": "de-clean-revision",
+    "output": "Danke für den Hinweis. Ich habe den Termin auf Dienstag verschoben. Passt dir 14 Uhr?"
+  },
+  {
+    "id": "de-refusal-draft",
+    "output": "Die gewünschte Änderung der personalisierten Gravur ist bei Ihrem bereits versandten Stück leider nicht möglich."
+  },
+  {
+    "id": "de-real-list",
+    "output": "Das Werkzeug bietet drei Exportwege:\n\n- CSV für Tabellen. Ein CSV-Export enthält keine eingebetteten Bilder.\n- JSON für verschachtelte Daten. Die Struktur bleibt erhalten.\n- PDF für einen unveränderlichen Bericht. Die Seitenumbrüche bleiben erhalten."
+  },
+  {
+    "id": "de-punctuation-revision",
+    "output": "Die Prüfung läuft noch, das Ergebnis ist offen. Sie endet voraussichtlich zwischen 10 und 12 Uhr. Lea informiert uns danach. Die Freigabe ist noch nicht erteilt."
+  },
+  {
+    "id": "de-protected-original",
+    "output": "Die folgenden Originale werden unverändert wiedergegeben.\n\n'No evidence found; retry — optional'\n\n`for (let i=0; i<2; i++) { run(); }`\n\n`https://example.org/a;b`\n\nDie Vorgabe, bestimmte Wörter und Satzzeichen wegzulassen, lässt sich mit den unveränderten Originalen nicht vollständig erfüllen. Das Fehlermeldungszitat enthält einen ausgeschlossenen Begriff und einen Gedankenstrich. Zitat, Code und URL enthalten Semikolons."
+  },
+  {
+    "id": "en-customer-revision",
+    "output": "Our engineering team expects to finish the import by Friday if you approve the field mapping by Wednesday at 12:00 UTC. We will send you a progress update on Thursday, whether or not approval has arrived. This estimate does not include historical attachments."
+  },
+  {
+    "id": "en-quantifier-revision",
+    "output": "The prototype used over 30% less memory than build A in three runs with the same input. Its median runtime was 12.4 seconds, compared with 12.1 seconds for build A, so its median runtime was longer. These results cover only three runs with one input. We cannot generalize them to other inputs."
+  },
+  {
+    "id": "en-clean-revision",
+    "output": "Thanks for catching that. I changed the label to “Save draft” and kept the keyboard shortcut."
+  },
+  {
+    "id": "en-long-explanation-draft",
+    "output": "An operation is idempotent when repeating the same request has the same intended effect as making it once. This does not mean that every detail stays the same. Repeated requests can still create additional log entries.\n\nFor example, suppose you submit a payment request with an idempotency key, then repeat the same request with the same key. While the stored result is available, this hypothetical payment API does not create another charge. The intended effect is one charge, even though you sent the request twice. Each request may still add a log entry.\n\nIn this API, the stored result expires after 24 hours. After expiry, the same key is treated as new, so you should not rely on it to prevent another charge at that point.\n\nAuthorization is a separate requirement. Idempotency controls the intended effect of repeating a request. It does not, by itself, guarantee that the request is authorized."
+  },
+  {
+    "id": "en-refusal-draft",
+    "output": "Unfortunately, this session is full, and there is no waiting list. The next session is scheduled for 18 November. Booking opens on 4 November."
+  },
+  {
+    "id": "en-punctuation-revision",
+    "output": "The patch is ready, and testing is still in progress. Sam is responsible for the review. We expect a decision in two to three days. We do not yet know whether the patch fixes all failures."
+  },
+  {
+    "id": "en-terms-and-list",
+    "output": "Before promoting this replica, you must:\n\n1. Check replication lag.\n2. Verify the last committed transaction ID.\n3. Confirm that the old primary cannot accept writes.\n\nPromotion is allowed only after all three checks pass."
+  },
+  {
+    "id": "de-short-conversion",
+    "output": "3 Stunden sind 180 Minuten."
+  },
+  {
+    "id": "en-arithmetic-correction",
+    "output": "No, 17 × 8 = 136."
+  },
+  {
+    "id": "de-calendar-draft",
+    "output": "Ich muss unseren Termin am Montag verschieben, weil ein anderer Termin länger dauert. Passt dir Dienstag um 10 Uhr?"
+  },
+  {
+    "id": "en-release-status",
+    "output": "Two login tests failed with HTTP 401 after token refresh and are blocking the release. 48 tests passed. The auth team is investigating. We do not yet have a fix date."
+  },
+  {
+    "id": "de-shipping-question",
+    "output": "Einen Zustelltermin kennen wir noch nicht. Uns liegt nur die Versandbestätigung von heute vor."
+  },
+  {
+    "id": "en-invitation-draft",
+    "output": "Join us for our board-game evening on Saturday at 18:30 in Room 4 of the community centre. Please bring a game if you have one, but it's optional."
+  }
+]

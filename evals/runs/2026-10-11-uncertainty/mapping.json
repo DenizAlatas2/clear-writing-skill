@@ -1,0 +1,12 @@
+[
+  {
+    "id": "de-relation-holdout",
+    "A": "baseline",
+    "B": "skill"
+  },
+  {
+    "id": "en-relation-holdout",
+    "A": "baseline",
+    "B": "skill"
+  }
+]

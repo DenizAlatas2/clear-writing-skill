@@ -1,0 +1,70 @@
+[
+  {
+    "id": "de-relation-holdout",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "editorial",
+            "detail": "The final clause uses the explicitly prohibited abstract proof-status verdict 'nicht belegt'."
+          }
+        ],
+        "notes": "The technical wording is natural and concise. Both distinct execution IDs, the shared order number, the support relation, the hypothesis, and uncertainty about two resulting invoices are retained. Removing 'unsere' slightly reduces the original personal framing but does not change a material fact or commitment. The numerical scores reflect the otherwise strong fit, with the hard editorial failure recorded separately."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "The wording is natural, concise, and appropriate for a technical note. It retains the observations, their support for our hypothesis, and the hypothesis's tentative status. The final sentence expresses the actual open question about whether two invoices resulted. No new facts or reasons are added."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both candidates retain the material meaning and causal reasoning. B also retains the original personal framing and expresses invoice uncertainty directly. A fails the explicit editorial ban on 'nicht belegt', so B is preferred."
+  },
+  {
+    "id": "en-relation-holdout",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "editorial",
+            "detail": "The final sentence uses the explicitly prohibited abstract proof-status formulation 'does not establish'."
+          }
+        ],
+        "notes": "The paragraph is natural, concise, and suitable for a technical recommendation. It retains the 7 of 10 versus 4 of 10 comparison as the reason for another trial, and it does not claim guaranteed future superiority. It adds no test conditions or mechanism. The numerical scores reflect the otherwise strong fit, with the hard editorial failure recorded separately."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "The paragraph is clear, natural, and concise. It preserves both results and explicitly connects them to the recommendation for another trial. The final sentence expresses the actual uncertainty about consistent future superiority without adding a condition, mechanism, or commitment."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both candidates preserve the trial results, the reason for recommending another trial, and the limit on future performance. B states the open question directly and meets the editorial requirements. A uses the prohibited phrase 'does not establish', so B is preferred."
+  }
+]

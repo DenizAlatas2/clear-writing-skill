@@ -1,0 +1,297 @@
+[
+  {
+    "id": "de-customer-draft",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the four-day delay, today's carrier investigation, the update deadline, and unknown arrival. The statement of understanding acknowledges the anger the customer reported. It does not invent a new customer feeling or personal experience. The switch between collective and individual voice is conventional in support replies."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves all required facts and commitments. The apology explicitly acknowledges the day the customer took off. The collective voice stays consistent and the Sie relationship is clear."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "Both are concrete, polite replies with the correct update commitment and no refund promise. A acknowledges the reported anger explicitly. B connects the apology directly to the lost day off. These differences do not establish a substantial quality advantage."
+  },
+  {
+    "id": "de-clean-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Returns the already suitable message exactly, preserving Tuesday, the completed rescheduling, the 14:00 question, and the Du relationship."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Returns the already suitable message exactly, preserving Tuesday, the completed rescheduling, the 14:00 question, and the Du relationship."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical and fully satisfy the instruction to leave good wording unchanged."
+  },
+  {
+    "id": "de-real-list",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "The list preserves all three formats and every stated capability or limitation. Markdown list markers and the ordinary word hyphen in CSV-Export are permitted."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "The CSV bullet scopes the image restriction correctly. Exportformate accurately describes CSV, JSON, and PDF. All stated functions remain present, and the Markdown list markers are permitted."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "Both remove the inflated opening and organize genuinely parallel information into a useful list. Exportwege versus Exportformate and the two CSV phrasings do not materially change the guidance."
+  },
+  {
+    "id": "de-protected-original",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 2,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "meaning",
+            "detail": "The revised introduction replaces the original assertion that the following material supports the findings with an announcement that originals will be reproduced. That supporting relationship is omitted."
+          }
+        ],
+        "notes": "The protected quote, code, and URL remain exact. The conflict with the global exclusions is disclosed accurately. Their protected characters and wording are exempt from editorial failures. The procedural introduction is readable but changes the substantive message."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "The introduction retains the relationship between the following material and the findings while removing the inflated phrasing. All three protected originals are exact. The conflict is disclosed explicitly, with no claim of satisfying the exclusions everywhere."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both handle protected originals and the exclusion conflict correctly. B also retains what the original introduction says about the material supporting the findings. A substitutes a different introductory message."
+  },
+  {
+    "id": "en-quantifier-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves more than 30% less memory, build A, the three same-input runs, both median runtimes, and the limit on generalization. The negative conclusion is explicitly tied to these reported results. I treat this as a grounded testing limitation rather than abstract proof talk."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves all numerical comparisons and scope limitations. The statement that the prototype's median runtime was longer follows directly from 12.4 versus 12.1 seconds. It does not generalize that comparison beyond the reported runs or input."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both preserve the measurements and limits. B makes the direction of the measured runtime comparison explicit, which helps the reader interpret the numbers. A leaves that interpretation inside the more general statement about what the results show."
+  },
+  {
+    "id": "en-long-explanation-draft",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "156 whitespace-delimited words. Preserves intended effect, possible additional logs, retained-result protection, hypothetical 24-hour expiry, the key becoming new after expiry, and separate authorization. The amount and key value are clearly hypothetical details used for the requested example, not claimed experience."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "151 whitespace-delimited words. Preserves every technical limitation and distinguishes intended effect from logs. The two-request payment scenario is useful and contains no personal experience claim."
+      }
+    },
+    "preferred": "A",
+    "comparison": "Both meet the word range and explain the same boundaries accurately. A's sample amount, explicit key, and reason for retrying make the example easier for a junior developer to apply to a concrete request. B's example remains more generic."
+  },
+  {
+    "id": "en-punctuation-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves readiness, ongoing testing, the expected two-to-three-day decision, Sam's responsibility, and the precise limit of current testing. It removes the prohibited punctuation and vocabulary. I treat the explicit current-testing limitation as grounded scope language rather than abstract proof talk."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 3,
+          "preservation": 3,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves all operational facts and makes no claim that all failures are fixed. The final sentence expresses the team's uncertainty generally instead of explicitly stating the limit of current testing. The ongoing-testing context remains available, and no additional reason is invented, so this is a minor loss of specificity rather than a hard meaning failure."
+      }
+    },
+    "preferred": "A",
+    "comparison": "A more precisely retains the supplied relationship between current testing and the broader all-failures claim. B is clear, but its general statement about what the team knows weakens that specific qualification."
+  },
+  {
+    "id": "de-short-conversion",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Correctly gives 180 minutes, with no preamble or follow-up offer."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Correctly gives 180 minutes, with no preamble or follow-up offer."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical and appropriately brief."
+  },
+  {
+    "id": "de-calendar-draft",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the Monday appointment, the other appointment taking longer, and Tuesday at 10:00 as a question. Uses Du and adds no personal motives or judgments."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the Monday appointment, the other appointment taking longer, and Tuesday at 10:00 as a question. Uses Du and adds no personal motives or judgments."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The outputs are identical and satisfy all supplied facts and relationship constraints."
+  },
+  {
+    "id": "de-shipping-question",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Reports today's shipment confirmation and that a delivery date cannot yet be provided. Explicitly uses Ihr and Ihnen. Adds no transit estimate, carrier, tracking detail, or support commitment."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "States the unknown delivery date directly and preserves today's shipment confirmation as the only available information. Neutral address does not conflict with the Sie relationship. Adds no unsupported details or commitments."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A uses explicit customer address, while B leads with the unknown date and makes the limited information especially clear. Both answer accurately in an appropriate register, without a material advantage."
+  }
+]

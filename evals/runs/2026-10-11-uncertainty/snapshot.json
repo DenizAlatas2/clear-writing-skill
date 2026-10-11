@@ -1,0 +1,6 @@
+{
+  "candidate_commit": "9094764e0d03cf32d27aed3ce2f899d089d723a8",
+  "skill_sha256": "9fc253048daebea1e0b8ee57594244925c41549decf729c81823636f95a5340e",
+  "examples_sha256": "77dec905d43bad7ddc7021c23982ec026139f0b7285a6a15e096fa86c0de3087",
+  "baseline_source": "unchanged raw outputs from the four-case follow-up, identical prompts"
+}

@@ -1,0 +1,211 @@
+{
+  "patterns": {
+    "excluded_word": "\\b(?:Evidenz\\w*|evidence|nicht\\s+bewiesen|not\\s+proven)\\b",
+    "excluded_punctuation": "[\\u2013\\u2014\\u2022;]",
+    "thought_hyphen": "\\S[ \\t]+-{1,2}[ \\t]+\\S"
+  },
+  "protected_case": "de-protected-original",
+  "scope": "Exact lexical and character checks only. Abstract proof talk and meaning assessed separately.",
+  "results": [
+    {
+      "condition": "baseline",
+      "id": "de-customer-draft",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-technical-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-clean-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-refusal-draft",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-real-list",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-punctuation-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-protected-original",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-customer-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-quantifier-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-clean-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-long-explanation-draft",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-refusal-draft",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-punctuation-revision",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-terms-and-list",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-short-conversion",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-arithmetic-correction",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-calendar-draft",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-release-status",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "de-shipping-question",
+      "matches": {}
+    },
+    {
+      "condition": "baseline",
+      "id": "en-invitation-draft",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-customer-draft",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-technical-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-clean-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-refusal-draft",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-real-list",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-punctuation-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-protected-original",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-customer-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-quantifier-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-clean-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-long-explanation-draft",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-refusal-draft",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-punctuation-revision",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-terms-and-list",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-short-conversion",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-arithmetic-correction",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-calendar-draft",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-release-status",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "de-shipping-question",
+      "matches": {}
+    },
+    {
+      "condition": "skill",
+      "id": "en-invitation-draft",
+      "matches": {}
+    }
+  ]
+}

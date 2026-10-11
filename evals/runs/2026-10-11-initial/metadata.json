@@ -1,0 +1,40 @@
+{
+  "date_utc": "2026-10-11",
+  "execution": "Platform collaboration agents in Codex, not standalone Codex CLI or GitHub Copilot",
+  "model": "Inherited platform model with no override. Exact model identifier was not exposed by the collaboration tool.",
+  "baseline": "Normal task prompts without the new writing skill. Both writers inherited the platform writing-style guidance.",
+  "writer_context": "One fresh session per condition, with all 20 tasks in that session. Instructions required independent treatment of the tasks. No per-case context reset.",
+  "skill_resources_read": [
+    "SKILL.md"
+  ],
+  "generation_inputs": "The id and prompt fields of evals/cases.json at the candidate commit. Writers did not receive invariants or assessor criteria.",
+  "writer_isolation": "No access to other outputs or assessor criteria. No browsing or external account actions.",
+  "raw_outputs": "Complete unedited answers. No post-generation formatting or repair.",
+  "assessment": "Two independent fresh model-assessor sessions, 10 alternating cases each. Both candidates assessed on five dimensions, with separate hard failures.",
+  "blinding": "Candidate A/B order randomized per case with seed 736019. Condition mapping was withheld from assessors.",
+  "limits": [
+    "Single run per condition",
+    "Shared case context within each writer session",
+    "Strong standing writing instructions in baseline",
+    "Model assessors, no human panel",
+    "Each pair judged once, so no interjudge reliability estimate",
+    "Editorial requirements additional to the ordinary baseline prompts",
+    "No direct comparison with other public skills",
+    "No live host discovery test"
+  ],
+  "observed_hard_failures": {
+    "baseline": [],
+    "skill": [
+      "de-protected-original: omitted the stated relation between the following material and findings"
+    ]
+  },
+  "preferences": {
+    "baseline": 4,
+    "skill": 3,
+    "tie": 13
+  },
+  "assessment_review": "The preservation failure is accepted as a real issue. Raw judgments are retained without score changes.",
+  "format_validation": "gh 2.92.0 skill publish --dry-run passed. No git remote warning was expected for an unpublished local candidate.",
+  "install_copy_check": "Full three-file skill folder copied identically into isolated project and simulated personal .agents/skills layouts. A repeated copy command refused to overwrite an existing target.",
+  "copilot_host": "Native CLI startup failed under the cache write restriction. No login, reconnection, configuration, or model request was attempted."
+}

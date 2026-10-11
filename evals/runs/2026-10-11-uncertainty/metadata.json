@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-10-11",
+  "execution": "Fresh platform collaboration skill-writer session and fresh blinded assessor session in Codex",
+  "model": "Inherited platform model, no override. Exact identifier not exposed.",
+  "purpose": "Development check for concrete uncertainty after the proof-synonym failure. These two cases were already exposed in the prior follow-up.",
+  "baseline": "Unmodified baseline answers from the prior four-case follow-up with identical task prompts. They were not regenerated.",
+  "writer_context": "One fresh skill-writer session with two tasks. SKILL.md used, no examples read.",
+  "assessment": "One fresh blinded assessor, seed 149031. Five dimensions and separate meaning and editorial hard failures.",
+  "scope": "Only these two targeted cases were generated against the final skill snapshot. Earlier full-suite results remain attached to their earlier snapshots.",
+  "raw_outputs": "Unedited answers and judgments retained.",
+  "observed_skill_hard_failures": [],
+  "observed_baseline_hard_failures": [
+    "de-relation-holdout: abstract proof verdict",
+    "en-relation-holdout: abstract proof verdict"
+  ],
+  "preferences": {
+    "baseline": 0,
+    "skill": 2,
+    "tie": 0
+  },
+  "limits": [
+    "Two previously exposed cases",
+    "Baseline reused from a prior run",
+    "Single skill generation per case",
+    "Model assessor, not a human panel",
+    "No whole-suite rerun on this snapshot",
+    "No live Codex or Copilot host discovery test"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "de-protected-original",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite nur die Einleitung für eine technische Dokumentation und gib danach das Original unverändert aus. Einleitung: 'Die nachfolgende Evidenz ist von entscheidender Bedeutung — sie unterstreicht unsere Erkenntnisse.' Original ist das wörtliche Fehlermeldungszitat 'No evidence found; retry — optional' und der Code `for (let i=0; i<2; i++) { run(); }`. Auch die URL `https://example.org/a;b` muss unverändert bleiben. Bitte im gesamten Ergebnis keine Gedankenstriche, Semikolons oder Evidenzvokabeln verwenden. Wenn das mit den unveränderten Originalen kollidiert, benenne den Konflikt statt die Originale heimlich zu ändern.",
+    "invariants": [
+      "quote exact: No evidence found; retry — optional",
+      "code exact: for (let i=0; i<2; i++) { run(); }",
+      "URL exact: https://example.org/a;b",
+      "rewrite editorial introduction",
+      "disclose conflict with global exclusions",
+      "no claim of satisfying exclusions everywhere"
+    ]
+  },
+  {
+    "id": "en-punctuation-revision",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Rewrite this update clearly for coworkers, keeping the factual limits: 'The patch is ready — testing is still in progress. We expect a decision in 2–3 days; Sam owns the review. • There is no evidence that it fixes all failures. That broader claim is not proven.' Facts: Patch ready, testing ongoing, decision expected in two to three days, Sam responsible for review, current testing does not support a claim about all failures. No other reason for that uncertainty is available.",
+    "invariants": [
+      "patch ready",
+      "testing ongoing",
+      "expected decision two to three days",
+      "Sam owns review",
+      "no all-failures claim",
+      "no invented reason or missing metrics"
+    ]
+  },
+  {
+    "id": "de-relation-holdout",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite diese technische Notiz klar, ohne den Zusammenhang zu verlieren: 'Die Evidenz stützt unsere Vermutung, dass derselbe Auftrag zweimal ausgeführt wurde: Im Protokoll stehen zwei unterschiedliche Ausführungs-IDs zur selben Auftragsnummer. Ob daraus auch zwei Rechnungen entstanden sind, ist nicht bewiesen.' Nur diese Angaben sind bekannt.",
+    "invariants": [
+      "two distinct execution IDs",
+      "same order number",
+      "logs support hypothesis that the same order executed twice",
+      "hypothesis remains hypothesis",
+      "whether two invoices resulted remains unknown",
+      "no new reason or factual detail"
+    ]
+  },
+  {
+    "id": "en-relation-holdout",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Revise this paragraph clearly without changing the reasoning: 'The evidence for our recommendation is that this trial caught 7 duplicate requests out of 10, compared with 4 out of 10 for the old filter. We therefore recommend another trial of the new filter. The trial does not prove that the new filter will always do better.' No other test details are available.",
+    "invariants": [
+      "new filter caught 7 of 10 duplicate requests",
+      "old filter caught 4 of 10",
+      "comparison is reason for recommendation",
+      "recommend another trial, not deployment",
+      "future performance not guaranteed",
+      "no invented test conditions or mechanism"
+    ]
+  }
+]

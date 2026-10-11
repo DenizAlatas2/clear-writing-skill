@@ -66,7 +66,9 @@ This project offers a small, original bundle with explicit support for writing f
 
 The [evaluation protocol](evals/protocol.md) separates file validation from writing quality. The [synthetic cases](evals/cases.json) cover both languages, drafting and revision, customer complaints, refusals, technical detail, real three-item lists, quantified comparisons, uncertain deadlines, already good text, and protected original material.
 
-An independent paired evaluation and its raw outputs will be recorded in `evals/runs`. Changed facts or commitments and violations of the editorial exclusions are hard failures. They cannot be offset by style ratings. Results are a small model-assessed sample, not a human panel, a detector score, or a promise of performance on your work.
+The [evaluation report](evals/report.md) links complete raw outputs, blinded judgments, condition mappings, and tested snapshots. The first 20-case comparison found no general advantage over the strong baseline and exposed a preservation failure. Targeted follow-up work is recorded separately, including remaining failures and the resulting corrections. Changed facts or commitments and violations of the editorial exclusions are hard failures. They cannot be offset by style ratings. Results are a small model-assessed sample, not a human panel, a detector score, or a promise of performance on your work.
+
+For local packaging, link, fixture, and obvious disclosure checks, run `python3 scripts/check.py`. For specification validation with GitHub CLI 2.90 or later, run `gh skill publish --dry-run .`. These commands do not grade writing. No publication command is required to use the folder.
 
 ## Sources and license
 

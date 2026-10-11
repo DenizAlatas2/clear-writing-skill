@@ -1,0 +1,32 @@
+{
+  "date_utc": "2026-10-11",
+  "execution": "Fresh platform collaboration writer and assessor sessions in Codex, no standalone host invocation",
+  "model": "Inherited platform model, no override. Exact identifier not exposed.",
+  "purpose": "Check the stated-relation preservation correction, replay an uncertainty case, and test two new relation cases in DE and EN.",
+  "writer_context": "One fresh session per condition, four tasks per session.",
+  "skill_resources_read": [
+    "SKILL.md"
+  ],
+  "assessment": "One fresh blinded assessor session. Random A/B ordering with seed 901387.",
+  "raw_outputs": "Unedited answers and judgments retained.",
+  "baseline_hard_failures": [
+    "de-protected-original: grader treated deleted decisive-significance claim as material",
+    "de-relation-holdout: abstract proof synonym",
+    "en-relation-holdout: abstract proof synonym"
+  ],
+  "skill_hard_failures": [
+    "en-relation-holdout: abstract proof synonym"
+  ],
+  "preferences": {
+    "baseline": 1,
+    "skill": 2,
+    "tie": 1
+  },
+  "review_notes": [
+    "The original skill preservation failure was not repeated.",
+    "The new English case exposed a remaining proof-verdict substitution in both conditions.",
+    "The grader treated decisive importance as a substantive stance, whereas the initial rubric did not enumerate this stance. This interpretation is visible in the raw judgment and limits comparisons across runs.",
+    "No success percentage follows from these four cases."
+  ],
+  "next_change": "The skill now explicitly requires concrete uncertainty rather than replacing a proof verdict with a synonym. A separate two-case check records that later snapshot."
+}

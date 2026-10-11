@@ -1,0 +1,10 @@
+[
+  {
+    "id": "de-relation-holdout",
+    "output": "Im Protokoll stehen zwei unterschiedliche Ausführungs-IDs zur selben Auftragsnummer. Das stützt die Vermutung, dass derselbe Auftrag zweimal ausgeführt wurde. Ob daraus auch zwei Rechnungen entstanden sind, ist nicht belegt."
+  },
+  {
+    "id": "en-relation-holdout",
+    "output": "In this trial, the new filter caught 7 out of 10 duplicate requests, compared with 4 out of 10 for the old filter. Based on that result, we recommend another trial of the new filter. This trial does not establish that the new filter will always perform better."
+  }
+]

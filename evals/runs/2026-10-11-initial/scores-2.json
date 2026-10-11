@@ -1,0 +1,172 @@
+[
+  {
+    "id": "de-technical-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 3, "precision": 4, "preservation": 4, "length": 3, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves the test size, mean response-time comparison, unknown performance at other loads, conditional Friday rollout, and Du address. The last sentence repeats the possibility already conveyed by 'Du könntest', making the paragraph slightly laboured. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves all measurements, timing, approval condition, and uncertainty. 'Du könntest' keeps the rollout optional. The statement about what follows from this particular test is contextual reasoning about the scope of the result, rather than an abstract proof claim. No editorial violation."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both preserve the technical meaning. B integrates the uncertainty and conditional option without A's repeated statement about the Friday start, so its paragraph reads more naturally."
+  },
+  {
+    "id": "de-refusal-draft",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Clearly declines the requested engraving change for the already shipped piece and uses Ihr for the Sie relationship. It does not offer a replacement, refund, or justification. The task does not require spelling out the absence of those offers. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Clearly refuses the change, retains the already shipped status, and uses Ihnen and Ihrem. Its additional sentence states that no alternative or refund can be offered in this case, consistent with the supplied absence of an offered alternative or approved refund. It does not assert a general policy or legal rationale. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A focuses on the requested change. B also makes the absence of an alternative and refund explicit. Both are brief, courteous, firm, and supported by the supplied facts."
+  },
+  {
+    "id": "de-punctuation-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Retains the ongoing check, open result, expected 10 to 12 completion window, Lea's later update, and missing approval. Adds no explanation. Removes the disallowed terms and punctuation from the original."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Retains the ongoing check, open result, expected 10 to 12 completion window, Lea's later update, and missing approval. Adds no explanation. Removes the disallowed terms and punctuation from the original."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The candidates are identical and satisfy the task and all supplied invariants."
+  },
+  {
+    "id": "en-customer-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Keeps engineering responsibility, expected Friday completion conditional on Wednesday 12:00 UTC mapping approval, an unconditional Thursday update, and the historical-attachments exclusion. The active 'we have received your approval' is clear and professional. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Keeps all responsibilities, conditions, dates, uncertainty, and scope limits. 'Whether or not approval has arrived' plainly preserves the unconditional update. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The only substantive wording difference is how receipt of approval is expressed. Both formulations are clear and carry the same commitments, so the small stylistic difference does not justify a preference."
+  },
+  {
+    "id": "en-clean-revision",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Returns the already clear message unchanged, including the exact label, completed change, and retained shortcut. Adds no emotion or experience. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Returns the already clear message unchanged, including the exact label, completed change, and retained shortcut. Adds no emotion or experience. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The candidates are identical and follow the instruction to retain wording that already works."
+  },
+  {
+    "id": "en-refusal-draft",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Courteously explains that the current session is full and there is no waiting list. Retains both November dates without promising a place or inventing another route to attendance. The conventional thanks supplies politeness without a new material fact. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Gives a courteous, direct refusal and preserves the absence of a waiting list, the 18 November session date, and the 4 November booking date. Adds no promise or extra option. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A opens with thanks and combines the next-session details. B opens with a courteous regret and uses separate sentences. Both styles fit the brief and preserve exactly the same facts."
+  },
+  {
+    "id": "en-terms-and-list",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Explicitly marks all three distinct checks as mandatory and permits promotion only after all pass. Retains precise technical terms and adds no lag threshold or other condition. The numbered Markdown list is allowed. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "The imperative 'complete all three checks' retains their mandatory status. The three checks and the promotion restriction are explicit, technically precise, and free of invented thresholds. The final imperative limits when promotion may occur without promising or requiring that it occur. The numbered Markdown list is allowed. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "A uses explicit modal and permission language. B uses direct engineering instructions. Both make the three checks mandatory and require all three to pass before promotion."
+  },
+  {
+    "id": "en-arithmetic-correction",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Correctly rejects 126 and gives 136 in a short answer without praise or an offer. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Correctly rejects 126 and gives 136 in a short answer without praise or an offer. No editorial violation."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The candidates are identical, correct, and appropriately brief."
+  },
+  {
+    "id": "en-release-status",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 3, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Preserves the counts, HTTP status, token-refresh timing, release blocker, investigating team, and unknown fix date. Leading with the blocker is useful. 'Another 48 tests passed' is slightly awkward after a description of failed tests, although the intended separate count remains clear. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Clearly states the two failed login tests, HTTP 401 after token refresh, and resulting release block, then gives the 48 passing tests, auth investigation, and unknown fix date. All material facts and uncertainty are retained. No editorial violation."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both foreground the release blocker and preserve all facts. B's standalone passing-test count avoids the mildly awkward 'Another' transition and makes the two outcomes easier to read."
+  },
+  {
+    "id": "en-invitation-draft",
+    "candidates": {
+      "A": {
+        "scores": {"naturalness": 3, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Retains the day, time, room, venue, and optional game request without inventing arrangements. 'Bring a game ... though bringing one' repeats the same action and sounds slightly stiff in a casual invitation. The word hyphen in 'board-game' is permitted. No editorial violation."
+      },
+      "B": {
+        "scores": {"naturalness": 4, "precision": 4, "preservation": 4, "length": 4, "register": 4},
+        "hard_failures": [],
+        "notes": "Retains all event details and makes the game request both conditional on having one and explicitly optional. 'Please' and the contraction fit a short community invitation. Adds no arrangements or personal excitement. The word hyphen in 'board-game' is permitted. No editorial violation."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both preserve the event facts and optionality. B expresses the optional game request more naturally and courteously, while A repeats 'bring' in a somewhat stiff clause."
+  }
+]

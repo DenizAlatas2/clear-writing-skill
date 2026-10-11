@@ -1,0 +1,138 @@
+[
+  {
+    "id": "de-protected-original",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 3,
+          "preservation": 2,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "meaning",
+            "detail": "The rewritten introduction omits the original claim that the following material is of decisive importance. It retains only the claim that the material supports the findings."
+          }
+        ],
+        "notes": "Fluent and concise. The quote, code, and URL are exact, and the conflict with the global exclusions is disclosed without claiming full compliance. The prohibited forms occur only in protected originals, so those occurrences are exempt. The general conflict explanation is sufficient, though less specific than B's. Changing Erkenntnisse to Ergebnisse also slightly shifts the introduction's wording."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "The introduction retains both decisive significance and support for the stated findings in direct German. All protected originals are exact. The explanation accurately identifies the excluded word and punctuation in the quote and the semicolons in the executable code and URL. Those protected occurrences are exempt, and their conflict with the global instruction is explicitly disclosed. The additional explanation is proportionate to the requested conflict handling."
+      }
+    },
+    "preferred": "B",
+    "comparison": "B preserves the introduction's explicit significance claim and explains the unavoidable conflict more precisely. A is shorter and handles the protected originals correctly, but drops that significance claim. This judgment treats entscheidender Bedeutung as an assertion to preserve, rather than disposable editorial emphasis."
+  },
+  {
+    "id": "en-punctuation-revision",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Clear coworker update preserving readiness, ongoing testing, the expected two-to-three-day decision, Sam's responsibility, and the limit on the all-failures claim. It states the actual testing limitation without introducing a reason, metric, guarantee, or abstract proof formulation. No prohibited editorial forms appear."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Clear coworker update preserving readiness, ongoing testing, the expected two-to-three-day decision, Sam's responsibility, and the limit on the all-failures claim. It states the actual testing limitation without introducing a reason, metric, guarantee, or abstract proof formulation. No prohibited editorial forms appear."
+      }
+    },
+    "preferred": "tie",
+    "comparison": "The candidates are identical and satisfy the supplied task and invariants equally."
+  },
+  {
+    "id": "de-relation-holdout",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 3,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "editorial",
+            "detail": "Ob daraus auch zwei Rechnungen entstanden sind, ist nicht belegt retains abstract proof talk. Nicht belegt is an equivalent formulation of the excluded nicht bewiesen wording, even though it avoids that exact phrase."
+          }
+        ],
+        "notes": "The log details and the support relation are explicit, and duplicate execution remains a hypothesis. The invoice outcome remains unestablished, with no invented detail. Replacing unsere Vermutung with die Vermutung makes ownership of the hypothesis less explicit, a minor preservation issue. The word hyphen in Ausführungs-IDs is permitted."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [],
+        "notes": "Preserves the two distinct execution IDs, the shared order number, the inference supporting our hypothesis of duplicate execution, and the unknown invoice outcome. Ist unklar states the uncertainty directly without abstract proof talk or an invented explanation. The word hyphen in Ausführungs-IDs is permitted."
+      }
+    },
+    "preferred": "B",
+    "comparison": "Both preserve the substantive log-to-hypothesis reasoning. B also retains ownership of the hypothesis and expresses invoice uncertainty directly. A's nicht belegt is a hard editorial failure under the prohibition on abstract proof talk."
+  },
+  {
+    "id": "en-relation-holdout",
+    "candidates": {
+      "A": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 3,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "editorial",
+            "detail": "This result does not establish that the new filter will always perform better retains abstract proof talk. Does not establish is a proof-status formulation equivalent in function to the excluded not proven wording."
+          }
+        ],
+        "notes": "Preserves both trial counts, their comparison as the reason for another trial, and the limitation on future performance. No test conditions or mechanism are invented. Seven duplicate requests out of ten is faithful to the original wording but less explicit than B about the denominator being duplicate requests. The recommendation remains another trial."
+      },
+      "B": {
+        "scores": {
+          "naturalness": 4,
+          "precision": 4,
+          "preservation": 4,
+          "length": 4,
+          "register": 4
+        },
+        "hard_failures": [
+          {
+            "kind": "editorial",
+            "detail": "This trial does not establish that the new filter will always perform better retains abstract proof talk. Does not establish is a proof-status formulation equivalent in function to the excluded not proven wording."
+          }
+        ],
+        "notes": "Preserves both counts and makes the duplicate-request denominator explicit. Based on that result clearly connects the comparison to the recommendation for another trial. Future superiority remains unsupported, and no new test facts are supplied. The final sentence still uses the prohibited abstract proof formulation."
+      }
+    },
+    "preferred": "B",
+    "comparison": "B has a small precision advantage because 7 out of 10 duplicate requests identifies the denominator directly. Both preserve the reasoning and recommendation, and both fail the same hard editorial requirement through does not establish. The preference does not imply that either candidate fully passes."
+  }
+]

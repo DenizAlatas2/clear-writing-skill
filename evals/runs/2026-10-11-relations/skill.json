@@ -1,0 +1,18 @@
+[
+  {
+    "id": "de-protected-original",
+    "output": "Die folgenden Angaben sind entscheidend und stützen unsere Erkenntnisse.\n\nDie Ausschlüsse lassen sich im gesamten Ergebnis nicht einhalten: Das unveränderte Fehlermeldungszitat enthält ein ausgeschlossenes Wort, einen Gedankenstrich und ein Semikolon. Code und URL enthalten ebenfalls Semikolons.\n\nOriginal:\n'No evidence found; retry — optional'\n\n`for (let i=0; i<2; i++) { run(); }`\n\n`https://example.org/a;b`"
+  },
+  {
+    "id": "en-punctuation-revision",
+    "output": "The patch is ready, and testing is still in progress. We expect a decision in two to three days. Sam is responsible for the review. Current testing does not support a claim that the patch fixes all failures."
+  },
+  {
+    "id": "de-relation-holdout",
+    "output": "Im Protokoll stehen zwei unterschiedliche Ausführungs-IDs zur selben Auftragsnummer. Das stützt unsere Vermutung, dass derselbe Auftrag zweimal ausgeführt wurde. Ob daraus auch zwei Rechnungen entstanden sind, ist unklar."
+  },
+  {
+    "id": "en-relation-holdout",
+    "output": "In this trial, the new filter caught 7 duplicate requests out of 10, compared with 4 out of 10 for the old filter. We therefore recommend another trial of the new filter. This result does not establish that the new filter will always perform better."
+  }
+]

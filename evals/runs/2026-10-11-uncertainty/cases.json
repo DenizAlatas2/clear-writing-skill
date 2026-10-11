@@ -1,0 +1,30 @@
+[
+  {
+    "id": "de-relation-holdout",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite diese technische Notiz klar, ohne den Zusammenhang zu verlieren: 'Die Evidenz stützt unsere Vermutung, dass derselbe Auftrag zweimal ausgeführt wurde: Im Protokoll stehen zwei unterschiedliche Ausführungs-IDs zur selben Auftragsnummer. Ob daraus auch zwei Rechnungen entstanden sind, ist nicht bewiesen.' Nur diese Angaben sind bekannt.",
+    "invariants": [
+      "two distinct execution IDs",
+      "same order number",
+      "logs support hypothesis that the same order executed twice",
+      "hypothesis remains hypothesis",
+      "whether two invoices resulted remains unknown",
+      "no new reason or factual detail"
+    ]
+  },
+  {
+    "id": "en-relation-holdout",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Revise this paragraph clearly without changing the reasoning: 'The evidence for our recommendation is that this trial caught 7 duplicate requests out of 10, compared with 4 out of 10 for the old filter. We therefore recommend another trial of the new filter. The trial does not prove that the new filter will always do better.' No other test details are available.",
+    "invariants": [
+      "new filter caught 7 of 10 duplicate requests",
+      "old filter caught 4 of 10",
+      "comparison is reason for recommendation",
+      "recommend another trial, not deployment",
+      "future performance not guaranteed",
+      "no invented test conditions or mechanism"
+    ]
+  }
+]
