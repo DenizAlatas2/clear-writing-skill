@@ -1,0 +1,16 @@
+[
+  {
+    "id": "de-range-and-math",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite die beschreibende Sprache einer synthetischen Laborgerätenotiz ohne Gedankenstriche, Semikolons oder U+2022-Bullets. Ausgangstext: 'Die Probenmasse beträgt 10–12 mg — der Messwert bleibt im vorgesehenen Bereich. Die Formel `x - 2 = 0` ist als formale mathematische Notation unverändert wiederzugeben.' Erhalte die Zahlen, Einheit und mathematische Notation. Verändere nur die beschreibende Sprache.",
+    "invariants": ["range 10 to 12 mg, not 1012 or a single value", "measurement remains within intended range", "formal notation exact: x - 2 = 0", "no new technical detail", "no excluded punctuation in editable prose", "ordinary range expressed without en dash"]
+  },
+  {
+    "id": "en-method-scope",
+    "language": "en",
+    "mode": "revise",
+    "prompt": "Rewrite this synthetic study note in ordinary language without abstract proof talk. Preserve what the study can and cannot do: 'The questionnaire records which interface respondents prefer. It does not establish whether their choice improves task completion, because the study does not measure completion times or success rates. The findings cannot rule out a difference in task performance.' No other study details are available.",
+    "invariants": ["questionnaire records stated interface preference", "study does not measure completion times or success rates", "preference does not determine improvement in task completion", "study cannot rule out a difference in task performance", "retain methodological limitation, not merely unknown answer", "no invented study facts"]
+  }
+]

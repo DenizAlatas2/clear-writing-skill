@@ -28,6 +28,8 @@ Keep who does what, by when, and under which conditions. Do not make an estimate
 
 Keep meaningful relations between observations and conclusions. Removing excluded vocabulary must not remove or strengthen a stated reason or connection. If a material relation cannot be expressed clearly within the wording rules from the available details, disclose that conflict instead of silently dropping it.
 
+Preserve what an investigation can measure, distinguish, or rule out. A methodological limit must keep its specific meaning in ordinary language, rather than become a general statement that the answer is unknown. If no compliant phrasing preserves it, name the unresolved conflict and do not present the rewrite as complete.
+
 Do not add personal experiences, emotions, opinions, quotations, sources, or endorsements to make writing sound human. A more definite stance may clarify an existing position. It must not add a new factual claim or commitment.
 
 ## Make the language useful
@@ -48,12 +50,12 @@ For uncertainty, name the concrete open question or limit of the work. Replacing
 
 Do not use em dashes, en dashes, hyphens acting as thought dashes, semicolons, or the U+2022 bullet character. Rewrite with sentences, commas, parentheses, or another suitable structure. Use numbered lists or ordinary Markdown list markers when useful. Normal hyphens inside words remain valid.
 
-Preserve executable syntax, URLs, identifiers, and verbatim external quotations. These are protected original material, not editable prose. Rewrite the surrounding language. If the requested exclusions conflict with an exact quotation or required syntax, briefly explain the conflict and offer a paraphrase or other suitable presentation when possible. Never silently alter protected material or claim that it meets the prose exclusions.
+Preserve executable syntax, formal mathematical notation, URLs, identifiers, and verbatim external quotations. These are protected original material, not editable prose. Rewrite the surrounding language. If the requested exclusions conflict with an exact quotation or required syntax, briefly explain the conflict and offer a paraphrase or other suitable presentation when possible. Never silently alter protected material or claim that it meets the prose exclusions.
 
 Formatting your own prose as a quotation or code does not exempt it.
 
 ## Final check
 
-Compare the result with the source or facts. Check especially quantities, uncertainty, obligations, deadlines, conditions, and the reader relationship. Then check all editable prose for the excluded wording and punctuation. Resolve any conflict before claiming completion. Return the requested text or answer. Add editing commentary only when requested or when an unresolved issue affects correctness.
+For revision, compare the result with the source text. For new writing, compare it with the user's information and the sources actually used, never with your own draft. Additional factual claims need a basis in that material. Check especially quantities, uncertainty, obligations, deadlines, conditions, and the reader relationship. Then check all editable prose for the excluded wording and punctuation. Resolve any conflict before claiming completion. Return the requested text or answer. Add editing commentary only when requested or when an unresolved issue affects correctness.
 
 For calibration in German or English, read [references/examples.md](references/examples.md) when examples would help. All examples are synthetic.
