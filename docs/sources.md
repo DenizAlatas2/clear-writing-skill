@@ -32,6 +32,25 @@ The main design choice is to keep a compact drafting and revision workflow with 
 
 The project makes no authorship diagnosis and does not chase detector results. It evaluates whether writing serves the requested task and keeps the material meaning intact.
 
+## Public reader criticism
+
+These essays and discussions describe reader experiences or editorial judgments. They are not representative surveys or authorship tests. The principles adopted here are to make the central message concrete, avoid invented reassurance, preserve useful detail, and stop when the request is answered.
+
+| Source | Reader problem and limit |
+| --- | --- |
+| [Carly Ayres and Elizabeth Goodspeed, Spotting machine-made prose](https://carly.substack.com/p/spotting-machine-made-prose), 5 December 2024 | A staged contrast, metaphor, and abstract triad can suggest significance without adding observable information. This is an editorial reading of examples. |
+| [Christina Denz, Schreiben mit KI](https://www.schreibzentrum.berlin/schreiben-mit-ki-mit-drei-schritten-zu-einem-text-der-nach-dir-klingt/), 8 June 2026 | German newsletter analysis criticizes redundant contrasts, doubled emotions, and announced suspense. Clarify purpose, context, content, and tone before drafting. |
+| [Rebecca Tun, Why do I find it grotesque](https://rebeccatun.wordpress.com/2025/08/18/why-do-i-find-it-grotesque-when-chatgpt-says-its-not-x-its-y/), 18 August 2025 | A personal essay about contrasts that reframe a statement without a meaningful distinction. Genuine comparisons still have a place. |
+| [Reddit, Make it stop](https://www.reddit.com/r/ChatGPT/comments/1lag258/make_it_stop/) | A user objects to reassurance that first introduces an unspoken negative self-judgment. Avoid inventing the reader's inner state. |
+| [Reddit, Great question](https://www.reddit.com/r/ChatGPT/comments/1k9m1xx/great_question/) | Repeated praise can make acknowledgment feel empty. This is a complaint about a pattern, not a reason to eliminate warmth. |
+| [Hacker News discussion](https://news.ycombinator.com/item?id=41461724) | Participants criticize preambles and fluent prose with little substance. Others value longer or figurative writing. Length alone is an inadequate quality target. |
+| [Reddit, KI-Muster bei Texterstellung](https://www.reddit.com/r/KI_Welt/comments/1vf3o99/woher_kommen_kimuster_bei_texterstellung/) | German readers discuss adjective load, triads, stiffness, and repeated summaries. Some find style samples useful. Speculation about training is not adopted as fact. |
+| [Elbetext essay](https://www.elbetext.blog/?p=2045) | Criticism of repeated antitheses and triads where synonyms appear to be separate arguments. The essay's broader quality claims are not generalized. |
+| [Reddit discussion about delve](https://www.reddit.com/r/ChatGPT/comments/1el1ml1/the_amount_of_people_who_think_delve_is_such/) | Participants warn against single-word authorship accusations, including accusations aimed at non-native writers. Output exclusions remain style requirements only. |
+| [Reddit, ChatGPT becomes an obsessive skeptic](https://www.reddit.com/r/OpenAI/comments/1sll317/chatgpt_becomes_an_obsessive_skeptic_and_it/) | A report of excessive skepticism toward personal experience. It does not establish a general diagnosis of the product. Calibrate qualification to the actual claim. |
+| [OpenAI Codex issue 2655](https://github.com/openai/codex/issues/2655) | A user needs diagnostic error details. Concision must not remove failures and blockers needed to understand a technical result. |
+| [Towards Understanding Sycophancy in Language Models](https://arxiv.org/abs/2310.13548) | The study examines agreement at the expense of correctness in its tested settings. The skill keeps factual accuracy when a user proposes a wrong answer. It does not prohibit courtesy. |
+
 ## Format and installation
 
 | Source | Checked claim |

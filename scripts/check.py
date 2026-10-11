@@ -41,7 +41,7 @@ secret_patterns = [
     re.compile(r"AKIA[A-Z0-9]{16}"),
     re.compile(r"-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----"),
     re.compile(r"/(?:Users|home)/[A-Za-z0-9_.-]+/"),
-    re.compile(r"<source_thread_id>"),
+    re.compile(r"<source[_]thread_id>"),
 ]
 files = [p for p in ROOT.rglob("*")
          if p.is_file() and ".git" not in p.relative_to(ROOT).parts
