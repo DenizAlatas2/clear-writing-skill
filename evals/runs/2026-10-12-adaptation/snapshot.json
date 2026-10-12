@@ -1,0 +1,24 @@
+{
+  "date_utc": "2026-10-12",
+  "execution": "One native platform subagent explicitly read SKILL.md and answered five synthetic prompts in one session. Another native platform subagent reviews the outputs against prompts and invariants.",
+  "baseline": null,
+  "model": "Default inherited model; exact model identifier not exposed in the task result.",
+  "scope": "Targeted behavior check only. No native Codex, Copilot, or Claude installation/discovery test. Not a rerun of the historical 22-pair comparison.",
+  "writer_read_examples": false,
+  "sha256": {
+    "skills/clear-writing/SKILL.md": "50153d3f52487e23cfe3d893eb89bd08aaa9bf8620e6a60d76f1a9ac732c523d",
+    "skills/clear-writing/references/examples.md": "34c083c05567ecb390847a9368b186bb33ea5a39c04f1e890929ad085a561985",
+    "evals/adaptation-cases.json": "d5b22bb1c7164fae64f82e27be68746c9a1701eae39861bbf5df943264e63ba9"
+  },
+  "lexical_check": {
+    "case_count": 5,
+    "matches": {
+      "de-request-self-contained": {},
+      "de-courtesy-purpose": {},
+      "en-recap-unknown-outcomes": {},
+      "en-personal-public-adaptation": {},
+      "de-template-is-not-fact": {}
+    },
+    "limit": "Checks only the listed literal wording/punctuation patterns; does not grade meaning or general writing quality."
+  }
+}

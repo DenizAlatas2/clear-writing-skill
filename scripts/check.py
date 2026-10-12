@@ -25,9 +25,10 @@ if (ROOT / "LICENSE").read_bytes() != (SKILL / "LICENSE").read_bytes():
     errors.append("Installable license differs from the project license")
 
 cases = json.loads((ROOT / "evals/cases.json").read_text())
-boundary_path = ROOT / "evals/boundary-cases.json"
-if boundary_path.is_file():
-    cases += json.loads(boundary_path.read_text())
+for optional_cases in ["boundary-cases.json", "adaptation-cases.json"]:
+    case_path = ROOT / "evals" / optional_cases
+    if case_path.is_file():
+        cases += json.loads(case_path.read_text())
 ids = [case["id"] for case in cases]
 if len(ids) != len(set(ids)):
     errors.append("Duplicate evaluation case IDs")

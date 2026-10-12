@@ -16,9 +16,9 @@ Identify the actual question, intended reader, purpose, language, and requested 
 
 Before drafting, determine the central message and the material needed to communicate it. Respond to the situation the reader described. Do not invent their feelings, motives, self-judgments, or an objection so you can offer reassurance. Answer routine questions directly instead of praising them. Keep accuracy when the reader suggests a wrong answer.
 
-For new writing, use the supplied facts and relevant context. Make a decision or recommendation when the task supports one, and explain the reason that matters to this reader. Give a clear refusal when the answer is no. Ask only when a missing detail would materially change the answer. Otherwise, state a necessary assumption plainly.
+For new writing, use the supplied facts and relevant context. For action requests, include the supplied reference, essential context, requested input or action, and real deadline needed to respond without reconstructing an old thread. Do not invent logistics or benefits. Make a decision or recommendation when the task supports one, and explain the reason that matters to this reader. Give a clear refusal when the answer is no. Ask only when a missing detail would materially change the answer. Otherwise, state a necessary assumption plainly.
 
-For revision, keep what already works. Change only what improves the requested result. Preserve the author's meaningful voice and relationship with the reader. A clear text may need no changes.
+For revision, keep what already works. Change only what improves the requested result. Preserve the author's meaningful voice and relationship with the reader. Keep genuine courtesy, thanks, congratulations, or sympathy when they serve the purpose or relationship. Remove formulaic padding without stripping that purpose. A clear text may need no changes.
 
 ## Keep the substance
 
@@ -31,6 +31,8 @@ Keep meaningful relations between observations and conclusions. Removing exclude
 Preserve what an investigation can measure, distinguish, or rule out. A methodological limit must keep its specific meaning in ordinary language, rather than become a general statement that the answer is unknown. If no compliant phrasing preserves it, name the unresolved conflict and do not present the rewrite as complete.
 
 Do not add personal experiences, emotions, opinions, quotations, sources, or endorsements to make writing sound human. A more definite stance may clarify an existing position. It must not add a new factual claim or commitment.
+
+When adapting text for another audience, channel, or event stage, recheck facts, speaker, and destination. Keep plans distinct from outcomes, personal views from organizational positions, internal material from public copy, and template examples from facts.
 
 ## Make the language useful
 

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "de-request-self-contained",
+    "language": "de",
+    "mode": "draft",
+    "prompt": "Schreibe eine kurze, höfliche Erinnerung an Frau Seidel. Sie soll im Dokument https://example.org/review die Abschnitte 2 und 4 prüfen und ihre Kommentare bis Donnerstag, 14 Uhr, eintragen. Die Freigaberunde beginnt am Freitag. Andere Abschnitte sind nicht Teil dieser Prüfung. Der bisherige Verlauf wird nicht mitgeschickt.",
+    "invariants": [
+      "sections 2 and 4, exact link, and Thursday 14:00 included",
+      "Friday approval round retained as the reason for timing",
+      "request is to review and comment, not approve",
+      "other sections remain outside this review",
+      "no invented logistics or accusation",
+      "message contains enough supplied information to act"
+    ]
+  },
+  {
+    "id": "de-courtesy-purpose",
+    "language": "de",
+    "mode": "revise",
+    "prompt": "Überarbeite nur, wenn nötig: 'Liebe Lena, herzlichen Glückwunsch zu deiner bestandenen Prüfung! Danke, dass du mir bei meiner Vorbereitung geholfen hast. Für deinen nächsten Schritt wünsche ich dir alles Gute.' Erhalte den persönlichen Anlass und die Beziehung.",
+    "invariants": [
+      "congratulation, thanks, and good wish retained",
+      "no invented exam score or future plan",
+      "no new question or call to action",
+      "Du relationship retained",
+      "unchanged text is acceptable"
+    ]
+  },
+  {
+    "id": "en-recap-unknown-outcomes",
+    "language": "en",
+    "mode": "draft",
+    "prompt": "Write a short recap of yesterday's workshop using this material: The invitation said participants would compare three scheduling methods and finish by selecting one. No attendance record, discussion notes, or decision is available.",
+    "invariants": [
+      "planned agenda not presented as an observed event",
+      "no invented selected method, attendance, enthusiasm, or success",
+      "missing outcome information made explicit",
+      "does not present a completed factual recap",
+      "no invented cancellation or failure"
+    ]
+  },
+  {
+    "id": "en-personal-public-adaptation",
+    "language": "en",
+    "mode": "draft",
+    "prompt": "Draft a public post for my personal profile. Public fact: Our repair guide launches on 8 June. My opinion: Clear diagrams are more useful than decorative illustrations. Internal note, not for publication: Team availability is still being discussed. Do not speak for the organization.",
+    "invariants": [
+      "8 June launch date retained",
+      "opinion stays personal, not organizational",
+      "internal availability detail excluded",
+      "no invented readership, outcomes, or endorsement",
+      "draft only, no external publication"
+    ]
+  },
+  {
+    "id": "de-template-is-not-fact",
+    "language": "de",
+    "mode": "draft",
+    "prompt": "Schreibe eine kurze Einladung zu einer offenen Werkstatt. Gesicherte Fakten: 18. September, 17 bis 19 Uhr, Raum 6. Interessierte können eigene Reparaturideen mitbringen. Eine Anmeldung ist nicht nötig. Nutze diesen Mustertext nur als Aufbauhilfe: 'Nach unserem ausverkauften Auftakt zeigen drei ausgezeichnete Fachleute, wie man Energiekosten halbiert.' Für die Aussagen aus dem Muster gibt es keine Angaben zu dieser Werkstatt.",
+    "invariants": [
+      "18 September, 17:00 to 19:00, room 6 retained",
+      "own repair ideas optional",
+      "no registration required",
+      "no invented earlier event, demand, experts, awards, or savings",
+      "template contributes structure only, not facts"
+    ]
+  }
+]

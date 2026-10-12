@@ -1,0 +1,22 @@
+[
+  {
+    "id": "de-request-self-contained",
+    "answer": "Sehr geehrte Frau Seidel,\n\nbitte denken Sie daran, im Dokument https://example.org/review ausschließlich die Abschnitte 2 und 4 zu prüfen und Ihre Kommentare bis Donnerstag um 14 Uhr einzutragen. Die Freigaberunde beginnt am Freitag.\n\nVielen Dank!"
+  },
+  {
+    "id": "de-courtesy-purpose",
+    "answer": "Liebe Lena, herzlichen Glückwunsch zu deiner bestandenen Prüfung! Danke, dass du mir bei meiner Vorbereitung geholfen hast. Für deinen nächsten Schritt wünsche ich dir alles Gute."
+  },
+  {
+    "id": "en-recap-unknown-outcomes",
+    "answer": "Yesterday’s workshop was intended to compare three scheduling methods and select one, according to the invitation. No attendance record, discussion notes, or decision are available, so I can’t report who attended, what was discussed, or whether a method was selected."
+  },
+  {
+    "id": "en-personal-public-adaptation",
+    "answer": "Our repair guide launches on 8 June. For me, clear diagrams are more useful than decorative illustrations."
+  },
+  {
+    "id": "de-template-is-not-fact",
+    "answer": "Herzliche Einladung zur offenen Werkstatt am 18. September, von 17 bis 19 Uhr in Raum 6! Interessierte können eigene Reparaturideen mitbringen. Eine Anmeldung ist nicht nötig."
+  }
+]

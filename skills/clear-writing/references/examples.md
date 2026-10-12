@@ -65,3 +65,27 @@ The wording is already direct and warm. Adding slang, a personal anecdote, or an
 ## Protected original material
 
 An exact quotation, command, or URL may contain excluded punctuation. Preserve its exact contents and explain the conflict if the user expects those exclusions everywhere. Offer a clearly labelled paraphrase when an exact quotation is unnecessary. Do not present an altered quotation as the original.
+
+## DE: Eine Anfrage ohne alten Verlauf beantworten
+
+Briefing: Ask a colleague to enter the missing room number in the booking at https://example.org/booking by Monday at 10:00. The visitor list will be printed that afternoon. No other change is needed.
+
+> Bitte ergänze bis Montag um 10 Uhr die fehlende Raumnummer in der Buchung: https://example.org/booking. Am Nachmittag wird die Besucherliste gedruckt. Sonst musst du nichts ändern.
+
+The message supplies the reference, requested action, real deadline, and reason. It does not ask for a new booking or invent an urgency claim.
+
+## EN: Warmth is the purpose
+
+Input and output:
+
+> Congratulations on finishing your course, Alex! Thank you for helping me prepare for mine.
+
+The congratulations and thanks are the message's purpose. Concision should preserve them. No grades, effort, feelings, or future plans need to be added.
+
+## EN: An invitation is not a result
+
+Briefing: A planned demonstration promised to compare two repair methods. The event date has passed, but no account of what happened is available. The user asks for a recap.
+
+> I need the event notes to write a factual recap. The invitation planned a comparison of two repair methods, but it does not tell us what happened or which method was preferred.
+
+The missing outcome is material. A shorter version of the invitation cannot stand in for a report of the event.

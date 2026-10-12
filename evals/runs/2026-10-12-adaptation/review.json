@@ -1,0 +1,27 @@
+[
+  {
+    "id": "de-request-self-contained",
+    "verdict": "pass",
+    "findings": []
+  },
+  {
+    "id": "de-courtesy-purpose",
+    "verdict": "pass",
+    "findings": []
+  },
+  {
+    "id": "en-recap-unknown-outcomes",
+    "verdict": "pass",
+    "findings": []
+  },
+  {
+    "id": "en-personal-public-adaptation",
+    "verdict": "pass",
+    "findings": []
+  },
+  {
+    "id": "de-template-is-not-fact",
+    "verdict": "pass",
+    "findings": []
+  }
+]
