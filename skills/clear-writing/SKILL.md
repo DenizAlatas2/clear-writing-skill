@@ -1,6 +1,6 @@
 ---
 name: clear-writing
-description: Write or revise clear, natural German and English answers, explanations, and drafts. Use for direct, concrete language, less formulaic AI prose, or an appropriate customer or technical register, while preserving facts, uncertainty, responsibilities, and commitments.
+description: Write or revise clear, natural German and English prose while preserving facts, uncertainty, responsibilities, and commitments. Apply when composing user-facing answers, messages, emails, documents, summaries, or technical explanations, including ordinary writing requests that do not mention style or this skill. Do not apply prose edits to code-only tasks, exact quotations, or required machine-readable syntax.
 license: MIT
 ---
 

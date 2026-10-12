@@ -1,58 +1,57 @@
 # Clear writing
 
-A compact experimental Agent Skill for clear, natural German and English writing in Codex and GitHub Copilot. It helps with new answers and drafts as well as revisions, including customer communication and technical explanations.
+A compact experimental Agent Skill for clear, natural German and English writing across AI agents. It helps with new answers and drafts as well as revisions, including customer communication and technical explanations.
 
 The skill asks the writer to answer the actual question, choose a suitable register, and keep facts, uncertainty, responsibilities, conditions, and commitments intact. It removes empty framing and unnecessary jargon without lowering the technical level or manufacturing a personality.
 
 It also applies an opinionated editorial policy: no abstract proof talk, em or en dashes, thought dashes, semicolons, or U+2022 bullets in editable prose. Normal word hyphens remain valid. Exact quotations, URLs, identifiers, and executable syntax stay intact, with any conflict explained. This policy is a style choice, not a claim about who wrote a text.
 
-## Install
+## Automatic use
 
-The experimental project is published at [DenizAlatas2/clear-writing-skill](https://github.com/DenizAlatas2/clear-writing-skill). The repository, README, and skill contents have been read from GitHub and checked against the local files. The commands below use that verified public repository.
+The skill is agent-neutral. It uses the open [Agent Skills format](https://agentskills.io/specification) and has no runtime dependencies. Codex, Copilot, and Claude Code are documented integration examples, not the limit of its scope.
 
-The documented shared location for project skills is `.agents/skills`. The documented shared personal location is `~/.agents/skills`. Copy the whole `clear-writing` folder, including its references and license. These locations are supported by the current [Codex documentation](https://learn.chatgpt.com/docs/customization/overview#skills) and [GitHub Copilot documentation](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills).
+Its description covers ordinary German and English answers, messages, documents, explanations, and revisions. You do not need to ask for a rewrite or name the skill every time. A skill-capable host can select it from the task. The optional [Codex metadata](skills/clear-writing/agents/openai.yaml) explicitly allows implicit invocation.
 
-### Project installation, Codex and Copilot
+For a writing default across relevant tasks, install the skill **and add the small persistent prose instruction** in the [installation guide](docs/installation.md#make-clear-writing-a-default). This places the default in the host's normal instructions instead of relying only on skill selection. It respects explicit style requests, exact quotations, code, and structured output requirements. It does not grant tool permissions.
 
-From the root of the project where you want to use the skill:
+Neither a skill description nor a persistent instruction guarantees perfect selection or compliance in every host. Verify discovery and an unnamed writing request in your actual agent. Supported paths and integration behavior are listed in the guide.
 
-```sh
-git clone https://github.com/DenizAlatas2/clear-writing-skill.git /tmp/clear-writing-source
-mkdir -p .agents/skills
-test ! -e .agents/skills/clear-writing && cp -R /tmp/clear-writing-source/skills/clear-writing .agents/skills/
+## Install with your agent
+
+Copy this request into the agent where you want to use the skill:
+
+```text
+Install clear-writing from https://github.com/DenizAlatas2/clear-writing-skill
+for this agent, preferably at user scope. Read README.md, docs/installation.md,
+and the skill files first. Identify this host and its supported installation
+and persistent-instruction locations. Install the complete skill folder and
+merge the guide's default prose instruction into the appropriate existing
+instructions without overwriting unrelated content. Keep automatic selection
+enabled. Preserve explicit style requests, code, quotes, and required formats.
+Do not run remote installers, change permissions, or overwrite a conflicting
+installation. Ask if the scope or a conflict needs my decision. Verify discovery
+and a writing request that does not name the skill. Report the installed paths,
+source commit, checks performed, and any host limitations.
 ```
 
-The last command leaves an existing installation alone. Review or back up an existing copy before replacing it. Use a different empty clone destination if `/tmp/clear-writing-source` already exists. Restart your agent session if it does not discover the new skill.
-
-Copilot also documents `.github/skills/clear-writing` for project installation. Use one copy in the location appropriate to your host, to avoid duplicate skill names.
-
-### Personal installation, Codex and Copilot
-
-After obtaining the repository, run this from its root:
-
-```sh
-mkdir -p "$HOME/.agents/skills"
-test ! -e "$HOME/.agents/skills/clear-writing" && cp -R skills/clear-writing "$HOME/.agents/skills/"
-```
-
-These examples use a POSIX shell. On other systems, copy the same folder with your file manager or native shell.
-
-The paths and copy behavior are checked against current documentation and an isolated local copy test. Discovery and invocation in a standalone Codex or Copilot host have not yet been tested. Host features and automatic selection can vary. This repository does not modify your configuration or install itself.
+The guide also has a [German installation request](docs/installation.md#deutscher-installationsauftrag), documented host paths, safe manual copying, and update/removal instructions. The repository does not install itself. A folder in a repository is not automatically available in every chat app, account, or device.
 
 ## Use
 
-In Codex, explicitly request `$clear-writing`. Copilot selects relevant skills from their description. Ask it to use the `clear-writing` skill for the task. For hosts that support skill slash commands, select the discovered skill from the menu. Check the host's available commands instead of assuming identical syntax across products.
+After setup, just ask for the writing you need:
 
 ```text
-$clear-writing Schreibe eine kurze Antwort in der Sie-Form aus diesen Fakten:
+Schreibe eine kurze Antwort in der Sie-Form aus diesen Fakten:
 Der Versand ist verspätet. Wir melden uns bis Mittwoch um 16 Uhr.
 Ein Liefertermin steht noch nicht fest.
 ```
 
 ```text
-Use the clear-writing skill to revise this technical update.
+Explain this technical update to a colleague.
 Keep its quantities, conditions, responsibilities, and level of certainty.
 ```
+
+Explicit invocation remains useful for troubleshooting or a one-off task. Codex supports `$clear-writing`; Claude Code supports `/clear-writing`. Other hosts differ, so check the discovered skill list or supported commands.
 
 The [skill entrypoint](skills/clear-writing/SKILL.md) contains the instructions. Its optional [DE/EN examples](skills/clear-writing/references/examples.md) show how to preserve meaning while changing the language. Every example is synthetic.
 
@@ -67,6 +66,8 @@ This project offers a small, original bundle with explicit support for writing f
 The [evaluation protocol](evals/protocol.md) separates file validation from writing quality. The [synthetic cases](evals/cases.json) cover both languages, drafting and revision, customer complaints, refusals, technical detail, real three-item lists, quantified comparisons, uncertain deadlines, already good text, and protected original material.
 
 The [evaluation report](evals/report.md) links complete raw outputs, blinded judgments, condition mappings, and tested snapshots. The first 20-case comparison found no general advantage over the strong baseline and exposed a preservation failure. A complete rerun of the final instructions produced ties in all 20 original cases and two separate boundary cases. The model assessors recorded no hard failures. A subsequent independent content review confirmed that both final answers in one case lost a meaningful relation from the source. The other 21 pairs contained no further clear material error in that review. The original answers and scores remain unchanged. The 22 model ties are a small, weakly discriminating assessment, not an error-free result or a general performance advantage. Targeted follow-ups and corrections are recorded separately. Changed facts or commitments and violations of the editorial exclusions are hard failures. They cannot be offset by style ratings. Results are a small model-assessed sample, not a human panel, a detector score, or a promise of performance on your work.
+
+The 12 October integration update changes discovery metadata and installation guidance. The writing instruction body and all evaluation records are unchanged. The report's three-file packaging checks describe its recorded 11 October snapshot. The current folder has four files, including optional Codex metadata. Packaging, local links, basic skill frontmatter, optional metadata, and isolated copy/refusal checks passed for this update. A native Codex CLI smoke test could not initialize its app-server client because its filesystem was read-only, so no writing request ran. Native Codex, Copilot, and Claude invocation remains unverified. These checks do not rerun or extend the writing comparisons. The GitHub CLI specification dry-run was not repeated because the available CLI lacks the skill command.
 
 For local packaging, link, fixture, and obvious disclosure checks, run `python3 scripts/check.py`. For specification validation with GitHub CLI 2.90 or later, run `gh skill publish --dry-run .`. These commands do not grade writing. No publication command is required to use the folder.
 

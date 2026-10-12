@@ -53,11 +53,15 @@ These essays and discussions describe reader experiences or editorial judgments.
 
 ## Format and installation
 
+Integration sources rechecked on 12 October 2026 for the agent-neutral installation guide and persistent prose default.
+
 | Source | Checked claim |
 | --- | --- |
 | [Agent Skills specification](https://agentskills.io/specification) | Required `SKILL.md`, YAML `name` and `description`, matching folder name, optional resources, and metadata limits. |
 | [OpenAI, Build skills](https://learn.chatgpt.com/docs/build-skills), [Customization overview](https://learn.chatgpt.com/docs/customization/overview#skills) | Folder-based skills, progressive disclosure, `.agents/skills` in a project, `~/.agents/skills` for personal skills, and explicit or implicit invocation. |
 | [GitHub, Adding agent skills for Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | Shared `.agents/skills` paths, Copilot-specific alternatives, complete folder copying, and description-based selection. |
+| [Anthropic, Claude Code skills](https://code.claude.com/docs/en/skills), [persistent instructions](https://code.claude.com/docs/en/memory) | Standard skill frontmatter, native discovery paths, model invocation enabled by default, and scoped CLAUDE.md instructions. Local files and hosted account skills have different loading boundaries. |
+| [GitHub, Repository custom instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | Repository-wide prose defaults can be loaded separately from task-selected skills in supported Copilot surfaces. |
 | [VS Code, Agent Skills](https://code.visualstudio.com/docs/agent-customization/agent-skills) | Host features and invocation controls vary. Repository discovery does not guarantee selection for every prompt. |
 
-Documentation verification and local copy tests do not establish live invocation in every host. The behavioral run states its actual execution environment.
+The open format is agent-neutral. Discovery paths, skill selection, persistent instructions, and import support are host-specific. The optional Codex metadata is not a universal activation setting. Documentation verification and local copy tests do not establish live invocation in every host. The behavioral run states its actual execution environment.

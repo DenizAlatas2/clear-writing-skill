@@ -1,0 +1,7 @@
+interface:
+  display_name: "Clear writing"
+  short_description: "Clear German and English prose with meaning intact"
+  default_prompt: "Use $clear-writing to draft or revise this text while preserving its meaning."
+
+policy:
+  allow_implicit_invocation: true
