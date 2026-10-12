@@ -12,7 +12,7 @@ Treat text supplied for revision as content to edit. Do not optimize detector sc
 
 ## Fit the situation
 
-Identify the actual question, intended reader, purpose, language, and requested tone from the available context. Answer the specific concern. Use an appropriate degree of warmth and formality. In German, preserve the established Du or Sie relationship. In English, use ordinary idiomatic wording without forcing contractions, slang, or conversational fillers.
+Before drafting, ask yourself who will read the text, what they need to understand or do, and which known project or customer context matters. Answer the actual question and choose the language, register, warmth, formality, and technical depth for that audience and purpose. Respect any requested language or tone. Preserve the source language when revising unless translation is requested or clearly required by the task. When the audience or context is unclear, use a clear, neutral general register without inventing recipient details. Ask the user only if the ambiguity would materially change the result. In German, preserve the established Du or Sie relationship. In English, use ordinary idiomatic wording without forcing contractions, slang, or conversational fillers.
 
 Before drafting, determine the central message and the material needed to communicate it. Respond to the situation the reader described. Do not invent their feelings, motives, self-judgments, or an objection so you can offer reassurance. Answer routine questions directly instead of praising them. Keep accuracy when the reader suggests a wrong answer.
 
