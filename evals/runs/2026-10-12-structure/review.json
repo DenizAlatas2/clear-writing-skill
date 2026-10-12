@@ -1,0 +1,28 @@
+[
+  {
+    "id": "de-conditions-and-exception-attachment",
+    "verdict": "pass",
+    "findings": [
+      "Thursday remains a possible maintenance start through \"kann\", not a guarantee or commitment that maintenance will begin.",
+      "Approval remains due by Tuesday. The backup check remains due before the maintenance starts, with no Tuesday deadline imposed on it.",
+      "The archive system still requires the separate read test before its maintenance. No successful test result is asserted or added as a new condition.",
+      "The explicit reference to the same approval and backup conditions preserves both conditions for the archive system in addition to its separate read test.",
+      "The operations team remains responsible for sending the status report on Wednesday, independently of the maintenance start.",
+      "No approval, test result, new actor, additional deadline, or stronger obligation has been invented.",
+      "All answer text is editable prose. It contains none of the excluded wording or punctuation. The compound hyphens in \"Freigabe- und Backup-Bedingungen\" are permitted normal German compound hyphens, not thought dashes."
+    ]
+  },
+  {
+    "id": "de-consistent-document-states",
+    "verdict": "pass",
+    "findings": [
+      "The answer retains the source verbatim, which the prompt and skill permit when no revision improves clarity.",
+      "Draft and approved document remain distinct states. A draft is editable and an approved document is read-only.",
+      "An approved document can still be used to create a new draft. This does not change the approved source document into an editable state.",
+      "Creating the draft does not automatically approve it. No automatic transition, new final state, or archive state is introduced.",
+      "The terms \"Entwurf\" and \"freigegebenes Dokument\" remain consistent for their respective states.",
+      "The formal \"Sie\" relationship and the user-facing ability to create a new draft are preserved. No new responsibility, condition, deadline, or commitment is added.",
+      "All answer text is editable prose and contains none of the excluded wording or punctuation."
+    ]
+  }
+]

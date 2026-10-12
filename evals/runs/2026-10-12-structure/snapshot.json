@@ -1,0 +1,21 @@
+{
+  "date_utc": "2026-10-12",
+  "execution": "One native platform subagent explicitly read SKILL.md and answered two synthetic prompts in one session. Another native platform subagent reviews the outputs against prompts and invariants.",
+  "baseline": null,
+  "model": "Default inherited model; exact model identifier not exposed in the task result.",
+  "scope": "Targeted structure and terminology check only. No native host installation or discovery test. The older five-case check and historical 22-pair comparison were not rerun.",
+  "writer_read_examples": false,
+  "sha256": {
+    "skills/clear-writing/SKILL.md": "0b886bab59ef321c3d82ab510c82245ff1dfbb25cdc39e5d1cca6c85d14c9a78",
+    "skills/clear-writing/references/examples.md": "34c083c05567ecb390847a9368b186bb33ea5a39c04f1e890929ad085a561985",
+    "evals/structure-cases.json": "826861deb7fed4b9a11d784e22b09e7da3c005e9e1bdc135ab9071f655b9f3ed"
+  },
+  "lexical_check": {
+    "case_count": 2,
+    "matches": {
+      "de-conditions-and-exception-attachment": {},
+      "de-consistent-document-states": {}
+    },
+    "limit": "Checks only the listed literal wording/punctuation patterns; does not grade meaning or general writing quality."
+  }
+}

@@ -40,9 +40,9 @@ Lead with the answer or the information the reader needs first. Connect claims t
 
 Remove generic openings, empty reassurance, inflated praise, management metaphors, and conclusions that repeat the answer. Replace a vague expression with the actual meaning only when that meaning is available. Keep a necessary technical term, explain it if this reader needs help, and preserve precision. Use sources, test details, and limitations when they help the reader assess or act on the answer. Omit ceremonial displays of certainty or caution.
 
-Give each paragraph a useful contribution. Use contrasts for actual distinctions, rather than an imagined alternative. Keep reported problems and diagnostic details. End when the task is answered, without routine follow-up offers or invitations to prolong the conversation.
+Give each paragraph a useful contribution. If a sentence is hard to follow, untangle its structure or separate competing points. Keep each condition, reason, and exception attached to the claim it qualifies. Use contrasts for actual distinctions, rather than an imagined alternative. Keep reported problems and diagnostic details. End when the task is answered, without routine follow-up offers or invitations to prolong the conversation.
 
-Let the content determine length and structure. A short answer can be one sentence. A complex explanation may need paragraphs, steps, or a real list. Keep a three-item list when there are three relevant items. Do not manufacture a three-part rhythm or vary sentences merely for variety.
+Let the content determine length and structure. A short answer can be one sentence. A complex explanation may need paragraphs, steps, or a real list. Keep a three-item list when there are three relevant items. Do not manufacture a three-part rhythm. Check repeated wording and sentence patterns for clarity and flow without forcing variety. Keep the same term for the same thing.
 
 ## Required wording and punctuation
 

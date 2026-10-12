@@ -1,0 +1,10 @@
+[
+  {
+    "id": "de-conditions-and-exception-attachment",
+    "answer": "Die Serverwartung kann am Donnerstag beginnen, wenn die Freigabe bis Dienstag vorliegt und das Backup vor dem Start geprüft ist.\n\nFür das Archivsystem gelten dieselben Freigabe- und Backup-Bedingungen. Zusätzlich darf es erst nach einem separaten Lesetest gewartet werden.\n\nDas Betriebsteam schickt am Mittwoch einen Statusbericht, unabhängig vom Wartungsstart."
+  },
+  {
+    "id": "de-consistent-document-states",
+    "answer": "Ein Entwurf lässt sich ändern. Ein freigegebenes Dokument lässt sich nur lesen. Aus einem freigegebenen Dokument können Sie einen neuen Entwurf erstellen. Ein Entwurf wird dadurch nicht automatisch freigegeben."
+  }
+]

@@ -25,7 +25,7 @@ if (ROOT / "LICENSE").read_bytes() != (SKILL / "LICENSE").read_bytes():
     errors.append("Installable license differs from the project license")
 
 cases = json.loads((ROOT / "evals/cases.json").read_text())
-for optional_cases in ["boundary-cases.json", "adaptation-cases.json"]:
+for optional_cases in ["boundary-cases.json", "adaptation-cases.json", "structure-cases.json"]:
     case_path = ROOT / "evals" / optional_cases
     if case_path.is_file():
         cases += json.loads(case_path.read_text())
